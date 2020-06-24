@@ -1,0 +1,37 @@
+/* 支付信息 */
+.goods_info { background: #fff; padding: .3rem 3%; width: 94%; }
+.gf_name { color: #111; font-size: .85rem; line-height: 2.2rem; border-bottom: 1px #eee solid; font-weight: bolder; }
+
+/* 商品列表 */
+.gf_list { }
+.gf_list li { border-bottom: 1px #eee solid; }
+.gf_item { display: flex; padding:.75rem 0; }
+.gf_item_img { width: 2rem; padding:.1rem .6rem 0 0; }
+.gf_item_img img { width: 100%; display: block; }
+.gf_item_info { display: flex; }
+.gf_item_tit { color: #111; font-size: .7rem; line-height: 1rem; flex: 1; }
+.gf_item_other { text-align: right; padding-left: .3rem; }
+.gf_item_other span { color: #ff6050; font-size: .75rem; display: inline-block;  line-height: 1rem; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.gf_item_other em { font-size: .65rem; }
+.gf_item_other i { display: inline-block;  line-height: 1rem; color: #999; font-size: .75rem;  }
+/* 图片显示 宽度不同 */
+.gf_item.skin1 .gf_item_img { width: 5rem; }
+
+/* 价格小计 左右显示 */
+.gf_price { padding: .5rem 0; border-bottom: 1px #eee solid; }
+.gf_price_item { color: #999; font-size: .65rem; line-height: 1.3rem; }
+.gf_price_item span { font-size: .7rem; color: #111; }
+.gf_price_item em { font-size: .6rem; }
+/* 价格小计 右侧显示 */
+.gf_price.skin1 { text-align: right; }
+
+/* 统计 */
+.gf_total { text-align: right; color: #111; font-size: .75rem; line-height: 2.2rem;font-weight: bolder; }
+.gf_total i { padding-right: .2rem; }
+.gf_total span { color: #ff6050; font-size: .85rem; }
+.gf_total em { font-size: .65rem; }
+
+
+/* 边距 */
+.mg_btm { margin-bottom: .5rem; }
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+  <title>请选择省市区</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link href="../../css/index.css" rel="stylesheet" >
+  <link href="../../font/customs/iconfont.css" rel="stylesheet" >
+  <link href="../../../vendors/drawer/css/drawer_m.css" rel="stylesheet" >
+  <link href="province.css" rel="stylesheet" >
+  <style>
+    body { background: #f1f5f8; }
+  </style>
+</head>
+<body>
+
+<!-- 请选择省市区 -->
+<div class="drawer" style="display: block" data-v="<%=data.hash%>" id="draw_<%=data.hash%>" >
+  <div class="drawer_mask <%=data.maskClass+'-'+data.hash%>"></div>
+  <div class="drawer_out">
+    <!--<div class="drawer_cont">-->
+    <div class="dw_head dw_m92">
+      <div class="fl">
+        <a href="javascript:;" class="cancel <%=data.cancelBtn+'-'+data.hash%>">返回</a>
+      </div>
+      <div class="dw_h_name" >请选择省市区</div>
+    </div>
+    <div class="dw_body dw_m92">
+      <!-- 列表 -->
+      <ul class="province_list">
+        <li>
+          <div class="prov_item" data-id="110101" data-name="东城区">
+            <span class="iconfont iconyoujiantou fr" ></span>
+            东城区
+          </div>
+        </li>
+        <li>
+          <div class="prov_item" data-id="110101" data-name="东城区">
+            <span class="iconfont iconyoujiantou fr" ></span>
+            东城区
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--</div>-->
+  </div>
+</div>
+
+
+</body>
+</html>

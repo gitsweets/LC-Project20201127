@@ -1,0 +1,7 @@
+.province { }
+.province_list { }
+.province_list li { border-bottom: 1px #eee solid; padding: .3rem 0; }
+/*.province_list li:first-child { border-top:none; }*/
+.prov_item { padding: .5rem 0; line-height: 1rem; font-size: .75rem; color: #111; }
+.prov_item .iconfont { font-size: 1rem; color: #999; }
+

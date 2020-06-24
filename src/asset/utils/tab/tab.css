@@ -1,0 +1,30 @@
+.tab { }
+.tab_head { width: 100%; }
+.tab_body { max-height: 19rem; }
+.tab_list {  width: 100%; }
+.tab_list li { line-height: 2.6rem; }
+
+/* 滚动条 */
+.scroll_x { overflow-x: auto; }
+.scroll_y { overflow-y: auto; }
+
+/* 样式一 */
+.tab.skin1 { }
+.tab.skin1 .tab_head { overflow-x: auto; }
+.tab.skin1 .tab_body { overflow-y: auto; }
+.tab.skin1 .tab_list { display: inline-block; border-bottom: 1px #eee solid; white-space: nowrap; position: relative; padding-top: .1rem; }
+.tab.skin1 .tab_list li { display: inline-block; color: #000; font-size: .75rem; margin-left: 1.2rem; }
+.tab.skin1 .tab_list li:first-child { margin-left: 0; }
+.tab.skin1 .tab_list .line { background: #ff6050; width: 1.4rem; height: .15rem;
+    position: absolute; bottom: 0; left: .5rem; }
+
+/* 样式二 */
+.tab.skin2 { }
+.tab.skin2 .tab_list { white-space: nowrap; width: 100%; padding-top: .1rem; }
+.tab.skin2 .tab_list li { width: 50%; float: left; text-align: center; border-bottom: 1px solid #dedede; padding-bottom: 2px; line-height: 2.6rem; color: #000; font-size: .75rem; }
+.tab.skin2 .tab_list li.cur { border-bottom: 3px solid #ff6050; padding-bottom: 0; }
+
+
+
+
+

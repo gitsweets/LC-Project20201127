@@ -1,0 +1,28 @@
+/* 支付信息 */
+.payment_info { background: #fff; padding: .3rem 3%; width: 94%; }
+.pf_name { color: #111; font-size: .85rem; line-height: 2.2rem; border-bottom: 1px #eee solid; font-weight: bolder; }
+/* 商品列表 */
+.pf_list { }
+.pf_list li { border-bottom: 1px #eee solid; }
+.pf_item { display: flex; padding:.75rem 0; }
+.pf_item_img { width: 2rem; padding:.1rem .6rem 0 0; }
+.pf_item_img img { width: 100%; display: block; }
+.pf_item_info { display: flex; }
+.pf_item_tit { color: #111; font-size: .7rem; line-height: 1rem; flex: 1; }
+.pf_item_other { text-align: right; padding-left: .3rem; }
+.pf_item_other span { color: #ff6050; font-size: .75rem; display: inline-block;  line-height: 1rem; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.pf_item_other em { font-size: .65rem; }
+.pf_item_other i { display: inline-block;  line-height: 1rem; color: #999; font-size: .75rem;  }
+/* 价格小计 */
+.pf_price { padding: .5rem 0; border-bottom: 1px #eee solid; }
+.pf_price_item { color: #999; font-size: .65rem; line-height: 1.3rem; }
+.pf_price_item span { font-size: .7rem; }
+.pf_price_item em { font-size: .6rem; }
+/* 统计 */
+.pf_total { text-align: right; color: #111; font-size: .75rem; line-height: 2.2rem;font-weight: bolder; }
+.pf_total i { padding-right: .2rem; }
+.pf_total span { color: #ff6050; font-size: .85rem; }
+.pf_total em { font-size: .65rem; }
+/* 边距 */
+.mg_btm { margin-bottom: .5rem; }
+

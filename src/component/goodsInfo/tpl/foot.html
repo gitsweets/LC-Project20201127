@@ -1,0 +1,92 @@
+<template>
+  <div class="goods_detail">
+    <!-- 选项卡 -->
+    <div class="gd_tab">
+      <ul>
+        <li class="cur"><a href="javascript:void(0);" >基本信息</a></li>
+        <li><a href="javascript:void(0);" >图文介绍</a></li>
+        <li><a href="javascript:void(0);" >评价</a></li>
+      </ul>
+    </div>
+    <!--选项卡内容-->
+    <div class="gd_content">
+      <%
+      var baseInfo = data.base_info,
+          slideImgData = baseInfo.image_list, img_len = slideImgData && slideImgData.length,
+          goodInfoData = baseInfo.good_info;
+      %>
+      <!-- 基本信息 -->
+      <div class="gd_base">
+        <%
+        if(img_len > 0) {
+        %>
+        <!-- 商品图片切换 -->
+        <div class="gd_slide">
+          <%
+          var m = 0;
+          for(; m < img_len; m++){
+          var slideImg = slideImgData[m];
+          %>
+          <img src="<%=slideImg%>" >
+          <%
+          }
+          %>
+        </div>
+        <%
+        }
+        %>
+        <!-- 商品详细信息 -->
+        <div class="good_info">
+          <div class="g_tit"><%=goodInfoData.goods_name%></div>
+          <div class="g_price">
+            <div class="g_real">会员价:<em>¥</em><span><%=goodInfoData.price_member%></span>元</div>
+            <div class="g_original">商城价:<em>¥</em><span><%=goodInfoData.price%></span>元</div>
+          </div>
+          <div class="g_stock">
+            <div>库存：有货</div>
+            <div class="g_sales">总销量：100</div>
+          </div>
+          <div class="g_promotion">促销信息：已经比市场价优惠76.00元。</div>
+        </div>
+        <!-- 店铺信息 -->
+        <div class="shop_info">
+          <div class="sf_name">
+            <a href="" >
+              <span class="iconfont icon-qijiandiancopy"></span>蓝卡健康直营店
+              <span class="iconfont icon-jiantou fr"></span>
+            </a>
+          </div>
+          <div class="sf_score">
+            <ul>
+              <li>描述相符：<span class="red">95</span>分</li>
+              <li>服务质量：<span class="red">95</span>分</li>
+              <li>发货速度：<span class="red">95</span>分</li>
+            </ul>
+          </div>
+        </div>
+        <!-- end -->
+      </div>
+      <!-- 图文介绍 -->
+      <div class="gd_images">
+      
+      </div>
+      <!-- 评价 -->
+      <div class="gd_reviews">
+      
+      </div>
+      <!-- end -->
+    </div>
+    <!--end-->
+  </div>
+</template>
+
+<style>
+  .swiper-container img {
+    width: 100%;
+    height: 200px;
+  }
+</style>
+
+<script>
+
+</script>

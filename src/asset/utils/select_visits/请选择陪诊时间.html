@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+  <title>请选择陪诊时间</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link href="../../css/index.css" rel="stylesheet" >
+  <link href="../../../vendors/drawer/css/drawer_m.css" rel="stylesheet" >
+  <link href="../../font/customs/iconfont.css" rel="stylesheet" >
+  <link href="select_visits.css" rel="stylesheet" >
+</head>
+<body>
+
+<!-- 请选择陪诊时间 -->
+<div class="drawer" style="display: block;" >
+  <div class="drawer_mask"></div>
+  <div class="drawer_out">
+    <!--<div class="drawer_cont">-->
+    <div class="dw_head dw_m92">
+      <div class="fl">
+        <a href="javascript:;" class="cancel">取消</a>
+      </div>
+      <div class="fr">
+        <a href="javascript:;" class="confirm">确认</a>
+      </div>
+      <div class="dw_h_name">请选择陪诊时间</div>
+    </div>
+    <div class="dw_body dw_m92">
+      <div class="select_visits" >
+        <!-- 中英文选择 -->
+        <ul class="clearfix">
+          <li>
+            <div class="fl "><span class="iconfont iconxuanzhong s_select"></span></div>
+            <div class="visit_tit">中文陪诊</div>
+          </li>
+          <li>
+            <div class="fl "><span class="iconfont iconiconfontxuanzhong4 s_select"></span></div>
+            <div class="visit_tit">英文陪诊</div>
+          </li>
+        </ul>
+        <!-- 时间选择 -->
+        <div class="visit_time">
+          <div class="visit_count clearfix">
+            <div class="opt_count fl" attr_opt="add"><span class="iconfont iconjia"></span></div>
+            <div class="input_count fl">
+              <input class="text_change" disabled type="text" value="3小时" >
+            </div>
+            <div class="opt_count cut fl" attr_opt="cut" ><span class="iconfont iconjianshao_f"></span></div>
+          </div>
+          <div class="visit_des">陪诊时间最短为2小时，最长为24小时</div>
+        </div>
+        <!-- end -->
+      </div>
+    </div>
+    <!--</div>-->
+  </div>
+</div>
+
+
+</body>
+</html>

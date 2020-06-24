@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FORM 提交支付</title>
+</head>
+<body>
+
+<!-- FORM 提交 -->
+<div class="pay_form" >
+  <form action="/pay" method="post" id="paying_form" >
+    <!-- 签名 -->
+    <input type="hidden" id="signature" name="signature" value="<%=payData.signature||''%>"/>
+    <!-- 订单id -->
+    <input type="hidden" id="orderid" name="orderid"  value="<%=payData.orderid||''%>"/>
+    <!-- 订单号 -->
+    <input type="hidden" id="orderno" name="orderno" value="<%=payData.orderno||''%>"/>
+    <!-- Android版本-->
+    <input type="hidden" id="android_version" name="android_app_version" value="0"/>
+    <!-- app包名-->
+    <input type="hidden" id="app_name" name="app_name" value=""/>
+    <!-- 支付方式 -->
+    <input type="hidden" id="pay_type" name="payingtype" value="alipay">
+  </form>
+</div>
+
+</body>
+</html>

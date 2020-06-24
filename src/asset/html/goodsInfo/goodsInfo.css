@@ -1,0 +1,61 @@
+.goods_detail { }
+/* 选项卡 */
+.gd_tab { }
+.gd_tab ul { display: flex; }
+.gd_tab li { flex: 1; text-align: center; padding: .35rem 0; font-size: .75rem; border-bottom: 1px #dfdfdf solid; }
+.gd_tab li a { line-height: 1.4rem; color: #555; border-left: 1px #dfdfdf solid; display: block;  }
+.gd_tab li:first-child a {  border-left: none; }
+.gd_tab li.cur { border-bottom: 3px #059de1 solid; }
+.gd_tab li.cur a { color: #059de1; }
+
+/* 选项卡内容 */
+.gd_content { background: #f4f4f4; padding-bottom: .5rem; }
+/* 基本信息 */
+.gd_base { }
+/* 商品图片切换 */
+.gd_slide { margin-bottom: .5rem; min-height: 6rem; background: #fff; text-align: center; }
+/* 商品详细信息 */
+.good_info { margin-bottom: .5rem; background: #fff; padding: .4rem 4%; }
+.g_tit { line-height: 1rem; font-size: .7rem; color: #333; }
+.g_price { line-height: 1.5rem; padding: .3rem 0 0; }
+.g_price div {  display: inline-block; padding-right: .5rem; }
+.g_original { color: #555; font-size: .65rem; }
+.g_original em { font-size: .55rem; padding: 0 .1rem; }
+.g_original span { font-size: .7rem; }
+.g_real { color: #f2413c; font-size: .9rem; }
+.g_real em { font-size: .75rem; padding: 0 .1rem; }
+.g_real span { font-size: .9rem; }
+.g_stock { line-height: 1.2rem; color: #999; font-size: .65rem; }
+.g_stock div { display: inline-block; padding-right: 1rem; }
+.g_sales { }
+.g_promotion { font-size: .65rem; line-height: 1.2rem; }
+
+/* 店铺信息 */
+.shop_info { background: #fff; padding: .4rem 4%; }
+.sf_name { font-size: .75rem; line-height: 1.6rem; }
+.sf_name a { color: #333; display: block; }
+.sf_name .icon-qijiandiancopy { color: #f2413c; font-size: .9rem; padding-right: .5rem; }
+.sf_name .icon-jiantou { font-size: .9rem; }
+
+.sf_score { }
+.sf_score ul { display: flex; }
+.sf_score li { flex: 1; line-height: 1.5rem; color: #999; }
+.sf_score span.red { color: #f2413c; }
+.sf_score span.greed { color: #5db000; }
+
+/* 购买数量 */
+.gd_count { background: #fff; padding: .4rem 4%; margin-bottom: .5rem; }
+.gc_name { }
+.gc_opt { }
+
+/* 图文信息 */
+.gd_images { }
+
+/* 评价 */
+.gd_reviews { }
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+/* 二维码样式 */
+.qrCode { padding: 1.35rem 0 1.25rem 0; text-align: center; }
+/*.qc_img { padding-bottom: .3rem; }*/
+.qc_img img { width: 60%; }
+.qc_time { font-size: .75rem; color: #111; line-height: 2rem; }
+.qc_time span { color: #ff6050; }
+.qc_des { font-size: .85rem; color: #111; line-height: 2rem; }
+.qc_instructions {  font-size: .65rem; color: #666; line-height: 1rem; padding: .8rem 0 .3rem; text-align: left; }
+
+/* 二维码标题样式 */
+.qc_price { text-align: center; color: #111; font-size: .75rem; height: 2.25rem; line-height: 2.25rem; background: #f1f5f7; }
+.qc_price span { color: #ff6050; font-size: .85rem; }
+.qc_price em { font-size: .7rem; }
+
+/* 二维码标题样式 */
+.qrCode.skin1 { padding: .1rem 0; }
+.qc_title { text-align: center; color: #111; font-size: .75rem; font-weight: bolder;  line-height: 2rem; margin-bottom: .2rem; }
+
+/* 弹出层配置 */
+.popup_out { top: 7rem; bottom: auto; left: 8%; right: 8%; width: 84%; background: #fff; }
+
+

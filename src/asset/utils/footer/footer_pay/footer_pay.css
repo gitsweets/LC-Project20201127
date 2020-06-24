@@ -1,0 +1,16 @@
+/* 立即预约底部 */
+.f_pay { background: #fff; padding: .5rem 3%; }
+
+.fp_btn { display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; }
+.fp_btn a { border-radius: .8rem; border: 1px #ddd solid; flex: 15; font-size: .75rem; color: #111; line-height: 1.6rem; margin-left: .5rem; text-align: center; font-weight: bolder; }
+.fp_btn a:first-child { flex: 12; margin-left: 0; }
+.fp_btn a:nth-child(7n+3) { flex: 18; }
+
+
+
+
+
+
+
+
+

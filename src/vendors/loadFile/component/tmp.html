@@ -1,0 +1,33 @@
+<template>
+  <div class="account">
+    <img class="avator" :src="orderDetailInfo.userInfo.avatarUrl" alt="">
+    <div class="name">{{orderDetailInfo.userInfo.name}}</div>
+    <div class="ag">
+      <span>{{orderDetailInfo.userInfo.gender == 'm' ? '男' : '女'}}</span>
+      <span>{{orderDetailInfo.userInfo.age}}岁</span>
+    </div>
+    <div class="id"><span>身份证号</span><span>{{orderDetailInfo.userInfo.cardId}}</span></div>
+  </div>
+</template>
+
+<style>
+  .swiper-container img {
+    width: 100%;
+    height: 200px;
+  }
+</style>
+
+<script>
+function f() {
+  console.log(1);
+}
+</script>
+
+
+
+
+
+
+
+
+

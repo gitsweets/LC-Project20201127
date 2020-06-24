@@ -1,0 +1,78 @@
+/* 单个圆形镂空效果 */
+.base-one-circle {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    border-radius: 5px;
+    background: radial-gradient(circle at 50px 0px, transparent 10px, #28A4F2 0) top;
+    filter: drop-shadow(3px 3px 3px rgba(0,0,0,.3));
+}
+
+.l_circle { background: radial-gradient(circle at 0px 50px, transparent 10px, #28A4F2 0) top; }
+
+/* 完整的卡券样式 */
+.base-coupons {
+    width: 250px;
+    height: 100px;
+    position: relative;
+    background: radial-gradient(circle at right top, transparent 10px,  #28A4F2 0) top left / 60px 51% no-repeat,
+    radial-gradient(circle at right bottom, transparent 10px,  #28A4F2 0) bottom left /60px 51% no-repeat,
+    radial-gradient(circle at left top, transparent 10px, #eeeeee 0) top right /190px 51% no-repeat,
+    radial-gradient(circle at left bottom, transparent 10px, #eeeeee 0) bottom right /190px 51% no-repeat;
+    filter: drop-shadow(3px 3px 3px rgba(0,0,0,.3));
+}
+.base-coupons::before {
+    content: '';
+    height: 80px;
+    border: 1px dashed #fff;
+    position: absolute;
+    left: 60px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.base-coupons::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width:5px;
+    top: 0;
+    /*background: #111;*/
+    /* 右侧锯齿 */
+    right: -5px;
+    background-image: linear-gradient(to bottom, #eeeeee 5px, transparent 5px, transparent),
+    radial-gradient(10px circle at 5px 10px, transparent 5px, #eeeeee 5px);
+
+    background-size: 5px 15px;
+}
+
+/* 实现圆形锯齿边效果 */
+.ticket {
+    width: 300px;
+    height: 180px;
+    position: relative;
+    background: red;
+    margin: 0 auto;
+}
+.ticket:before,
+.ticket:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 100%;
+    background-size: 30px 30px; /* 一个repeat的大小 */
+    background-repeat: repeat-y;
+    background-image: radial-gradient(#fff 8px, transparent 8px);
+    position: absolute;
+    top: 0;
+}
+.ticket:before {
+    left: -15px; /* 半圆，只显示一个repeat的一半 */
+}
+.ticket:after {
+    right: -15px;
+}
+
+
+
+

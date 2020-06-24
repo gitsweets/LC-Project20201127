@@ -1,0 +1,17 @@
+.menu_list { }
+.menu_list li { display: flex; color: #000; padding: .5rem; }
+.menu_list li a { color: inherit; display: flex; width: 100%; align-items: center; }
+.ml_select { flex: 2; text-align: center; }
+.ml_select .iconfont { font-size: 1rem; line-height: 1.2rem; }
+.ml_con { flex: 10; line-height: 1.2rem; }
+.ml_opt { flex: 2; text-align: center; }
+
+/* 样式1 分割线 */
+.menu_list li.skin1 { position: relative; }
+.menu_list li.skin1:after { height: 1px; content: ''; background: #c8c7cc; width: 100%; position: absolute; left: 0; bottom: 0; }
+
+
+
+
+
+

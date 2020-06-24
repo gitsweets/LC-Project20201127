@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+  <title>填写登记信息</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link href="../../css/index.css" rel="stylesheet" >
+  <link href="../../../vendors/drawer/css/drawer_m.css" rel="stylesheet" >
+  <link href="../../css/module/form.css" rel="stylesheet" >
+</head>
+<body>
+
+<!-- 填写登记信息 -->
+<div class="drawer" style="display: block" >
+  <div class="drawer_mask"></div>
+  <div class="drawer_out">
+    <!--<div class="drawer_cont">-->
+    <div class="dw_head dw_m92">
+      <div class="fl">
+        <a href="javascript:;" class="cancel  <%=data.cancelBtn+'-'+data.hash%>">取消</a>
+      </div>
+      <div class="fr">
+        <a href="javascript:;" class="confirm  <%=data.sureBtn+'-'+data.hash%>">确认</a>
+      </div>
+      <div class="dw_h_name">填写登记信息</div>
+    </div>
+    <div class="dw_body dw_m92">
+      <!-- 列表 -->
+      <div class="fm_group" >
+        <div class="fm_text fr"><input type="text" placeholder="请输入目的地" ></div>
+        <div class="fm_name">目的地</div>
+      </div>
+      <div class="fm_group" >
+        <div class="fm_text fr"><input type="text" placeholder="请输入停留时间" ></div>
+        <div class="fm_name">停留时间</div>
+      </div>
+    </div>
+    <!--</div>-->
+  </div>
+</div>
+
+
+</body>
+</html>

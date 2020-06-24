@@ -1,0 +1,144 @@
+<template>
+  <main>
+    <div class="goods_detail">
+      <!-- 选项卡 -->
+      <div class="gd_tab">
+        <ul>
+          <li class="cur"><a href="javascript:void(0);" >基本信息</a></li>
+          <li><a href="javascript:void(0);" >图文介绍</a></li>
+          <li><a href="javascript:void(0);" >评价</a></li>
+        </ul>
+      </div>
+      <!--选项卡内容-->
+      <div class="gd_content">
+        <%
+        var baseInfo = data.base_info,
+            slideImgData = baseInfo.image_list, img_len = slideImgData && slideImgData.length,
+            goodInfoData = baseInfo.good_info,
+            shopInfoData = baseInfo.shop_info;
+        %>
+        <!-- 基本信息 -->
+        <div class="gd_base">
+          <%
+          if(img_len > 0) {
+          %>
+          <!-- 商品图片切换 -->
+          <div class="gd_slide">
+            <%
+            var m = 0;
+            for(; m < img_len; m++){
+            var slideImg = slideImgData[m];
+            %>
+            <img src="<%=slideImg%>" >
+            <%
+            }
+            %>
+          </div>
+          <%
+          }
+          %>
+          <!-- 商品详细信息 -->
+          <div class="good_info">
+            <div class="g_tit"><%=goodInfoData.goods_name%></div>
+            <div class="g_price">
+              <!--会员价-->
+              <%
+              if(goodInfoData.price_member) {
+              %>
+              <div class="g_real"><%=goodInfoData.price_member.title%>:<em>¥</em><span><%=goodInfoData.price_member.val%></span>元</div>
+              <%
+              }
+              if(goodInfoData.price) {
+              %>
+              <!--商城价-->
+              <div class="g_original"><%=goodInfoData.price.title%>:<em>¥</em><span><%=goodInfoData.price.val%></span>元</div>
+              <%
+              }
+              %>
+            </div>
+            <div class="g_stock">
+              <!--库存-->
+              <%
+              if(goodInfoData.goods_number) {
+              %>
+              <div><%=goodInfoData.goods_number.title%>：<%=goodInfoData.goods_number.val%></div>
+              <%
+              }
+              %>
+              <!--总销量-->
+              <%
+              if(goodInfoData.total_sales) {
+              %>
+              <div class="g_sales"><%=goodInfoData.total_sales.title%>：<%=goodInfoData.total_sales.val%></div>
+              <%
+              }
+              %>
+            </div>
+            <!--促销信息-->
+            <%
+            if(goodInfoData.promotion_msg) {
+            %>
+            <div class="g_promotion"><%=goodInfoData.promotion_msg.title%>：<%=goodInfoData.promotion_msg.val%></div>
+            <%
+            }
+            %>
+          </div>
+          
+          <!-- 购买数量 -->
+          <div class="gd_count">
+            <div class="gc_name">购买数量</div>
+            <div class="gc_opt" ></div>
+          </div>
+          
+          <!-- 店铺信息 -->
+          <%
+          if(shopInfoData) {
+          %>
+          <div class="shop_info">
+            <div class="sf_name">
+              <a href="<%=shopInfoData.url%>" >
+                <span class="iconfont icon-qijiandiancopy"></span><%=shopInfoData.shop_name%>
+                <span class="iconfont icon-jiantou fr"></span>
+              </a>
+            </div>
+            <div class="sf_score">
+              <ul>
+                <%
+                if(shopInfoData.rate_remark) {
+                %>
+                <li><%=shopInfoData.rate_remark.title%>：<span class="red"><%=shopInfoData.rate_remark.val%></span>分</li>
+                <%
+                }
+                if(shopInfoData.rate_quality) {
+                %>
+                <li><%=shopInfoData.rate_quality.title%>：<span class="red"><%=shopInfoData.rate_quality.val%></span>分</li>
+                <%
+                }
+                if(shopInfoData.rate_speed) {
+                %>
+                <li><%=shopInfoData.rate_speed.title%>：<span class="red"><%=shopInfoData.rate_speed.val%></span>分</li>
+                <%
+                }
+                %>
+              </ul>
+            </div>
+          </div>
+          <%
+          }
+          %>
+          <!-- end -->
+        </div>
+        <!-- 图文介绍 -->
+        <div class="gd_images">
+        
+        </div>
+        <!-- 评价 -->
+        <div class="gd_reviews">
+        
+        </div>
+        <!-- end -->
+      </div>
+      <!--end-->
+    </div>
+  </main>
+</template>

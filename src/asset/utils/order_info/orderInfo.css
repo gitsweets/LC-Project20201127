@@ -1,0 +1,44 @@
+.order_detail {  background: #f1f5f7; }
+.m_b { margin-bottom: .5rem; }
+
+/* 订单信息 */
+.order_info { background: #fff; padding: .2rem 4%; width: 92%; }
+.of_name { color: #111; font-size: .85rem; line-height: 2.4rem; border-bottom: 1px #eee solid; font-weight: bolder; }
+.of_name span { color: #ff6050; font-size: .8rem; font-weight: normal; }
+.of_name em { font-size: .6rem; }
+.of_con { padding: .6rem 0; border-bottom: 1px #eee solid; }
+.of_item { color: #111; font-size: .75rem; line-height: 1.8rem; }
+.of_item span { color: #999; font-size: .75rem; }
+.of_item em { font-size: .6rem; }
+.of_item i { padding-left: .3rem; color: #888; display: none; }
+.of_total { color: #111; font-size: .8rem; line-height: 2.4rem; }
+.of_total span { color: #ff6050; font-size: .8rem; }
+.of_total em { font-size: .6rem; }
+
+/* 订单子项列表 */
+.of_list { padding: .5rem 0; }
+.of_list li { }
+
+/* 优惠券 */
+.of_coupon { border-bottom: 1px #eee solid; color: #111; font-size: .75rem; line-height: 1.8rem; padding: .3rem 0; }
+.of_cou_state { color: #f64e4e; line-height: 1.8rem; }
+.of_cou_state .iconfont { color: #999; font-size: 1rem; display: inline-block; margin-left: .1rem; }
+/* 隐藏显示优惠券列表 */
+.tab_con { display: none; }
+.tab_con.cur { display: block; }
+.tab_con .no_data { text-align: center; font-size: .8rem; color: #f64e4e; line-height: 2rem; padding-bottom: .8rem; }
+
+/* 发票 */
+.of_bill { border-bottom: 1px #eee solid; color: #111; font-size: .75rem; line-height: 1.8rem; padding: .3rem 0; }
+.of_bill_state { color: #666; line-height: 1.8rem; }
+.of_bill_state .iconfont { color: #999; font-size: 1rem; display: inline-block; margin-left: .1rem; }
+
+/* 配送方式 */
+.of_delivery { border-bottom: 1px #eee solid; color: #111; font-size: .75rem; line-height: 1.8rem; padding: .3rem 0; }
+.of_deliv_state { color: #666; line-height: 1.8rem; }
+.of_deliv_state .iconfont { color: #999; font-size: 1rem; display: inline-block; margin-left: .1rem; }
+
+
+
+
+

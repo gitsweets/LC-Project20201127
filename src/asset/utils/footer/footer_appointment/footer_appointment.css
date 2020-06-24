@@ -1,0 +1,21 @@
+/* 立即预约底部 */
+.f_appointment { }
+
+/** 价格 */
+.f_price { color: #ff6050;  font-size: .9rem; line-height: 2.5rem; padding-left: 4%; }
+.f_price em { font-size: .7rem; }
+.f_price span { font-size: .7rem; color: #333; }
+
+/** 按钮 */
+.fa_btn { }
+.fa_btn input[type="button"] { border: none; background: #0688fd; line-height: 2.5rem; color: #fff; padding: 0 1.35rem; }
+
+
+
+
+
+
+
+
+
+

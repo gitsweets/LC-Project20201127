@@ -1,0 +1,28 @@
+.base_info { background: #fff; padding: .2rem 4%; width: 92%; }
+.bf_name { color: #111; font-size: .85rem; line-height: 2.4rem; border-bottom: 1px #eee solid; font-weight: bolder; }
+.bf_con { padding: .5rem 0; }
+.bf_item { }
+.bf_item { color: #999; font-size: .7rem; line-height: 1.6rem; }
+.bf_item span { color: #111; font-size: .7rem; }
+
+/* 二维码 */
+.bf_qr_code { }
+
+/* 多行整体自动换行 */
+.bf_item i { color: #111; }
+.bf_item em { }
+
+/* 多行右侧自动换行 */
+/* 第一种写法 */
+.bf_item.skin1 { display: flex; }
+.bf_item.skin1 em { }
+.bf_item.skin1 i { flex: 1; text-align: right; }
+
+/* 第二种写法 */
+.bf_item.skin2 { }
+.bf_item.skin2 em { float: left; }
+.bf_item.skin2 i { margin-left: 3.8rem; display: block; text-align: right; }
+
+/* 第三种写法 */
+.bf_item.skin3 { text-align: right; }
+

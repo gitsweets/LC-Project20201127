@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ee8be22-2b93-41c7-b932-62216bd3f9b8" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/orderInfo/orderInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="352" lean-forward="true" selection-start-line="352" selection-end-line="352" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/orderDetails/orderDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="895" column="12" lean-forward="true" selection-start-line="895" selection-start-column="12" selection-end-line="895" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/开发总结.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="145">
+                <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_page_common/multiPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1218">
+              <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
+              <folding>
+                <element signature="e#804#2247#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/代码结构.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="513">
+                <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_page_build/webpack.config.dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_page_config/getNav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_page_config/Navigation.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_page_config/plugins.dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pf_</find>
+      <find>class=&quot;fr&quot;</find>
+      <find>foot_info</find>
+      <find>/customs</find>
+      <find>.nt</find>
+      <find>../src/images/customs/news.png</find>
+      <find>.skin3</find>
+      <find>pe_status</find>
+      <find>allow_refund</find>
+      <find>npm run dev-init orderDetails</find>
+      <find>scorelist_money</find>
+      <find>relativePath</find>
+      <find>typescript</find>
+      <find>buildTemplate</find>
+      <find>commonConfig.publicPath</find>
+      <find>publicPath</find>
+      <find>buildPublicPath</find>
+      <find>collapseWhitespace</find>
+      <find>buildPath</find>
+      <find>.svg</find>
+      <find>iconfont.svg</find>
+      <find>format('svg')</find>
+      <find>0ab55</find>
+      <find>getEntryObj</find>
+      <find>Project is running</find>
+      <find>getPageHtml</find>
+      <find>openBuild</find>
+      <find>writeFileSync</find>
+      <find>projectConfig</find>
+      <find>devTemplate</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+      <replace>.d_</replace>
+      <replace>drugInfoData</replace>
+      <replace>imgObj</replace>
+      <replace>global.orderInfo</replace>
+      <replace>gf_</replace>
+      <replace>f_price</replace>
+      <replace>.faq</replace>
+      <replace>./images/news.png</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/asset/utils/select_time/选择预约时间-预约状态.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_appointment/立即预约.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_btn/申请退款.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/footer/立即下载footer.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_otc/药房footer.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_pay/footer_pay.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_pay/订单支付footer.html" />
+        <option value="$PROJECT_DIR$/src/component/orderInfo/index.js" />
+        <option value="$PROJECT_DIR$/src/asset/html/orderInfo/orderInfo.html" />
+        <option value="$PROJECT_DIR$/src/component/orderInfo/tpl/foot.html" />
+        <option value="$PROJECT_DIR$/src/component/orderInfo/index.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/base_info/base_info.css" />
+        <option value="$PROJECT_DIR$/src/data/orderInfo/applyRefund.json" />
+        <option value="$PROJECT_DIR$/src/component/orderInfo/tpl/orderDetails.html" />
+        <option value="$PROJECT_DIR$/src/component/drugInfo/drugInfo.js" />
+        <option value="$PROJECT_DIR$/src/asset/utils/index.html" />
+        <option value="$PROJECT_DIR$/src/component/orderDetails/tpl/orderDetails.html" />
+        <option value="$PROJECT_DIR$/src/component/orderDetails/orderDetails.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/menu_list/menu_list.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/menu_list/菜单列表.html" />
+        <option value="$PROJECT_DIR$/mod_config/plugins.build.js" />
+        <option value="$PROJECT_DIR$/config/common.js" />
+        <option value="$PROJECT_DIR$/mod_build/webpack.config.build.js" />
+        <option value="$PROJECT_DIR$/mod_common/orderInfo.js" />
+        <option value="$PROJECT_DIR$/mod_config/projectConfig.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/multi_page_build/build.js" />
+        <option value="$PROJECT_DIR$/multi_page_config/projectConfig.js" />
+        <option value="$PROJECT_DIR$/multi_page_build/dev.js" />
+        <option value="$PROJECT_DIR$/mod_config/loaders.build.js" />
+        <option value="$PROJECT_DIR$/multi_page_config/multiPage.js" />
+        <option value="$PROJECT_DIR$/multi_page_common/multiPage_entry.js" />
+        <option value="$PROJECT_DIR$/multi_page_config/getEntryObj.js" />
+        <option value="$PROJECT_DIR$/multi_page_build/webpack.config.build.js" />
+        <option value="$PROJECT_DIR$/src/component/orderInfo/orderInfo.html" />
+        <option value="$PROJECT_DIR$/multi_page_config/loaders.build.js" />
+        <option value="$PROJECT_DIR$/multi_page_config/loaders.dev.js" />
+        <option value="$PROJECT_DIR$/项目打包命令.md" />
+        <option value="$PROJECT_DIR$/multi_page_config/plugins.build.js" />
+        <option value="$PROJECT_DIR$/项目打包命令-多页面.md" />
+        <option value="$PROJECT_DIR$/项目打包命令-多模块.md" />
+        <option value="$PROJECT_DIR$/multi_page_config/getPageHtml.js" />
+        <option value="$PROJECT_DIR$/mod_build/mod_build.js" />
+        <option value="$PROJECT_DIR$/mod_build/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/multi_page_common/multiPage.js" />
+        <option value="$PROJECT_DIR$/multi_page_config/getNav.js" />
+        <option value="$PROJECT_DIR$/multi_page_build/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/multi_page_config/plugins.dev.js" />
+        <option value="$PROJECT_DIR$/src/component/orderInfo/orderInfo.js" />
+        <option value="$PROJECT_DIR$/src/component/orderDetails/orderDetails.js" />
+        <option value="$PROJECT_DIR$/代码结构.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LC-Html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Demo\LC-Project" />
+      <recent name="E:\Demo\LC-Project\multi_page_common" />
+      <recent name="E:\Demo\LC-Project\multi_page_config" />
+      <recent name="E:\Demo\LC-Project\multi_page_build" />
+      <recent name="E:\Demo\LC-Project\src\data\orderInfo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Demo\LC-Project\src\asset\utils\footer\footer_otc" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\footer\download_foot" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\footer\footer_btn" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\footer\footer_appointment" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\select_visits" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.multiPage.js">
+    <configuration name="goodsInfo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/goodsInfo/goodsInfo.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/goodsInfo/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="loaders.dev.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mod_config/loaders.dev.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="multiPage.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/multi_page_common/multiPage.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.multiPage.js" />
+        <item itemvalue="Node.js.goodsInfo.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.loaders.dev.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ee8be22-2b93-41c7-b932-62216bd3f9b8" name="Default Changelist" comment="" />
+      <created>1588217652726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588217652726</updated>
+      <workItem from="1588217654076" duration="1565000" />
+      <workItem from="1588820337380" duration="37320000" />
+      <workItem from="1589264461399" duration="89000" />
+      <workItem from="1589268046052" duration="3752000" />
+      <workItem from="1589441497058" duration="28885000" />
+      <workItem from="1591149853007" duration="1386000" />
+      <workItem from="1591349064283" duration="822000" />
+      <workItem from="1591605266531" duration="87787000" />
+      <workItem from="1592270056295" duration="84977000" />
+      <workItem from="1592787720761" duration="51440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="298023000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/vendors/drawer/js/drawer_m_v1.0.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_common/multiPage_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/orderInfo/orderInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_common/goodsInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-667">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_common/orderInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1947">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/html/mobile_iphone/orderform_pe_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="833" selection-start-column="833" selection-end-column="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/html/mobile_iphone/otc_detail_pe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/SVN/branches/xli/2020/商城体检/themes/simplicity/css/orderDetails/page.437ec466.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret column="50215" selection-start-column="50215" selection-end-column="50215" />
+          <folding>
+            <element signature="e#30230#35216#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderDetails.d586b615.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="e#16346#25537#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderInfo.eeda27af.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="e#10353#11717#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderDetails.05e938e5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#10353#11717#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/orderInfo/page.4f0b6abd.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/js/orderInfo/manifest.70279cf7.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/js/orderInfo/page.74a0e83d.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/drugInfo.65d930b3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_common/drugInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_config/loaders.build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/js/multiPage/drugInfo.bb966e5c.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/font/common/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/drugInfo.e52fb452.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret column="28355" lean-forward="true" selection-start-column="28355" selection-end-column="28355" />
+          <folding>
+            <element signature="e#935#3314#2" expanded="true" />
+            <element signature="e#3319#5704#1" expanded="true" />
+            <element signature="e#5733#6663#1" expanded="true" />
+            <element signature="e#6680#8047#1" expanded="true" />
+            <element signature="e#8063#10197#1" expanded="true" />
+            <element signature="e#10217#11581#1" expanded="true" />
+            <element signature="e#11808#16055#2" expanded="true" />
+            <element signature="e#16060#20313#1" expanded="true" />
+            <element signature="e#20342#22544#1" expanded="true" />
+            <element signature="e#22561#25388#1" expanded="true" />
+            <element signature="e#29426#45006#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderInfo.6cb6fe4b.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret column="8495" lean-forward="true" selection-start-column="8495" selection-end-column="8495" />
+          <folding>
+            <element signature="e#935#3314#2" expanded="true" />
+            <element signature="e#3319#5704#1" expanded="true" />
+            <element signature="e#5733#6663#1" expanded="true" />
+            <element signature="e#6680#8047#1" expanded="true" />
+            <element signature="e#10217#11581#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderDetails.91e91634.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret column="1272" selection-start-column="1272" selection-end-column="1272" />
+          <folding>
+            <element signature="e#3319#5704#1" expanded="true" />
+            <element signature="e#5733#6663#1" expanded="true" />
+            <element signature="e#6680#8047#1" expanded="true" />
+            <element signature="e#8063#10197#1" expanded="true" />
+            <element signature="e#10217#11581#1" expanded="true" />
+            <element signature="e#15023#24214#2" expanded="true" />
+            <element signature="e#24219#33416#1" expanded="true" />
+            <element signature="e#33445#38431#1" expanded="true" />
+            <element signature="e#38448#44439#1" expanded="true" />
+            <element signature="e#44455#53401#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderDetails.718515f8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret column="8544" lean-forward="true" selection-start-column="8544" selection-end-column="8544" />
+          <folding>
+            <element signature="e#935#3314#2" expanded="true" />
+            <element signature="e#3319#5704#1" expanded="true" />
+            <element signature="e#5733#6663#1" expanded="true" />
+            <element signature="e#6680#8047#1" expanded="true" />
+            <element signature="e#10217#11205#1" expanded="true" />
+            <element signature="e#14647#23838#2" expanded="true" />
+            <element signature="e#23843#33040#1" expanded="true" />
+            <element signature="e#33069#38055#1" expanded="true" />
+            <element signature="e#38072#44063#1" expanded="true" />
+            <element signature="e#44079#53025#1" expanded="true" />
+            <element signature="e#53045#85713#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/drugInfo.78c6d664.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret column="11217" selection-start-column="11214" selection-end-column="11217" />
+          <folding>
+            <element signature="e#935#3314#2" expanded="true" />
+            <element signature="e#3319#5704#1" expanded="true" />
+            <element signature="e#5733#6663#1" expanded="true" />
+            <element signature="e#6680#8047#1" expanded="true" />
+            <element signature="e#8063#10197#1" expanded="true" />
+            <element signature="e#10217#11205#1" expanded="true" />
+            <element signature="e#11432#15679#2" expanded="true" />
+            <element signature="e#15684#19937#1" expanded="true" />
+            <element signature="e#19966#22168#1" expanded="true" />
+            <element signature="e#22185#25012#1" expanded="true" />
+            <element signature="e#25028#29030#1" expanded="true" />
+            <element signature="e#29050#40698#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_config/loaders.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/drugInfo.053b52cf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret column="29088" selection-start-column="29083" selection-end-column="29088" />
+          <folding>
+            <element signature="e#935#3314#2" expanded="true" />
+            <element signature="e#3319#5704#1" expanded="true" />
+            <element signature="e#5733#6663#1" expanded="true" />
+            <element signature="e#6680#8047#1" expanded="true" />
+            <element signature="e#8063#10197#1" expanded="true" />
+            <element signature="e#10217#11205#1" expanded="true" />
+            <element signature="e#11432#15679#2" expanded="true" />
+            <element signature="e#15684#19937#1" expanded="true" />
+            <element signature="e#19966#22168#1" expanded="true" />
+            <element signature="e#22185#25012#1" expanded="true" />
+            <element signature="e#25028#29030#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_config/loaders.build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_build/webpack.config.build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_config/plugins.build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目打包命令-多页面.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="174">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_build/mod_build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_build/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_config/getEntryObj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目打包命令-多模块.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="542">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_config/getPageHtml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_common/orderDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_build/dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_config/Navigation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_config/getNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_build/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_config/plugins.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/orderInfo/orderInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="352" lean-forward="true" selection-start-line="352" selection-end-line="352" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/orderDetails/orderDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="895" column="12" lean-forward="true" selection-start-line="895" selection-start-column="12" selection-end-line="895" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/开发总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="145">
+            <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/html/mobile_iphone/orderform_pe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret column="809" selection-start-column="809" selection-end-column="809" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_common/multiPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
+          <folding>
+            <element signature="e#804#2247#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码结构.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="513">
+            <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+{
+  "id": "1872267",
+  "name": "公用图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "公用图标",
+  "glyphs": [
+    {
+      "icon_id": "11623899",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    }
+  ]
+}
