@@ -70,7 +70,7 @@ npm run open-mod-build
 软件架构说明
 
 
-#### 安装教程
+#### 安装教程 ；、hhh
 
 1.  xxxx
 2.  xxxx
