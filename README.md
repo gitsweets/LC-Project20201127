@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### 拆分打包
 webpack --config config/webpack.config.mod.js
 
@@ -60,7 +59,6 @@ npm run open-mod-build
 
 
 
-=======
 # LC-Project-webpack
 
 #### 介绍
@@ -70,7 +68,7 @@ npm run open-mod-build
 软件架构说明
 
 
-#### 安装教程 ；、hhh
+#### 安装教程 
 
 1.  xxxx
 2.  xxxx
@@ -98,6 +96,5 @@ npm run open-mod-build
 4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
 5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
->>>>>>> cdddf1ffe4a78ee6685b1279a0ed7cef9a0497ea
 
 https://gitee.com/gitee_sweet_admin/LC-Project-webpack.git
