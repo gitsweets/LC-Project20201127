@@ -1,0 +1,147 @@
+<template>
+  <main>
+    <div class="order_details">
+      <%
+      var orderInfo = data.order_data,
+      codeData = data.code_data,
+      goodsData = data.goods_list,
+      appointmentData = data.pre_data;
+      <!--console.log(appointmentInfo);-->
+      %>
+      <!-- 预约信息 -->
+      <%
+      if(appointmentData) {
+      var m = 0, appointment_len = appointmentData.length;
+      for(; m < appointment_len; m++) {
+      var appointmentInfo = appointmentData[m];
+      %>
+      <div class="base_info m_b" >
+        <!-- 标题 -->
+        <div class="bf_name">预约信息</div>
+        <!-- 详细内容 -->
+        <div class="bf_con">
+          <div class="bf_item">
+            <span class="fr"><%=appointmentInfo.name%></span>
+            预约人：
+          </div>
+          <div class="bf_item skin1">
+            <em>预约机构：</em>
+            <i><%=appointmentInfo.clinic_name%></i>
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=appointmentInfo.pre_time%></span>
+            预约时间：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=appointmentInfo.pre_mobile%></span>
+            预约手机号：
+          </div>
+          <div class="bf_item skin1">
+            <em>预约地点：</em>
+            <i><%=appointmentInfo.pre_place%></i>
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=appointmentInfo.pe_status_str%></span>
+            预约状态：
+          </div>
+        </div>
+        <!-- 二维码 -->
+        <%
+        if(appointmentInfo.show_code == 1) {
+        %>
+        <div class="qrCode skin1" >
+          <div class="qc_title">预约二维码</div>
+          <div class="qc_img"><img src="<%=appointmentInfo.code_url%>"></div>
+          <div class="qc_instructions"><%=appointmentInfo.code_msg%></div>
+        </div>
+        <%
+        }
+        %>
+        <!-- end -->
+      </div>
+      <%
+      } }
+      %>
+      <!-- 订单信息 -->
+      <div class="base_info m_b">
+        <!-- 标题 -->
+        <div class="bf_name">订单信息</div>
+        <!-- 详细内容 -->
+        <div class="bf_con">
+          <div class="bf_item">
+            <span class="fr"><%=orderInfo.orderno%></span>
+            订单编号：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=orderInfo.order_time%></span>
+            下单日期：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=orderInfo.order_status%></span>
+            订单状态：
+          </div>
+        </div>
+        <!-- end -->
+      </div>
+    
+      <!-- 商品信息 -->
+      <div class="goods_info">
+        <div class="gf_name">项目信息</div>
+        <!---->
+        <ul class="gf_list">
+          <%
+          var n = 0, good_len = goodsData.length;
+          for(; n < good_len; n++){
+          var goodInfo = goodsData[n];
+          %>
+          <li class="bddd">
+            <!-- 检验项目 -->
+            <div class="gf_item1 skin1 clearfix">
+              
+                <div class="gf_item_img fl"><img src="<%=goodInfo.goods_img%>"></div>
+                <div class="gf_item_tit row_2 fl">
+                  <%=goodInfo.goods_name%>
+                </div>
+                <div class="gf_item_other fr">
+                  <span><em>￥</em><%=goodInfo.goods_price%></span>
+                  <i>x<%=goodInfo.goods_num%></i>
+                  <span><em>￥</em><%=goodInfo.total_price%></span>
+                </div>
+            </div>
+            <!-- 检验 -->
+            <%
+            if(goodInfo.pe_status === "1") {
+            %>
+            <div class="gf_inspect clearfix">
+              <div class="gt_state fr">检测状态：<span><%=goodInfo.pe_status_str%></span></div>
+              <div class="gt_name">检测医生：<span><%=goodInfo.oper_name%></span></div>
+              <div class="gt_time">检测时间：<span><%=goodInfo.oper_date%></span></div>
+            </div>
+            <% } else { %>
+            <div class="gf_inspect clearfix">
+              <div class="gt_state fr">检测状态：<span><%=goodInfo.pe_status_str%></span></div>
+            </div>
+            <% } %>
+          </li>
+          <%
+          }
+          %>
+        </ul>
+        <!-- 第二种展示方式 -->
+        <div class="gf_price skin1">
+          <div class="gf_price_item clearfix">商品金额：<span class="fr"><em>￥</em><%=orderInfo.goods_amount%></span></div>
+          <div class="gf_price_item clearfix">优惠券抵扣：<span class="fr"><em>￥</em><%=orderInfo.coupon_discount%></span></div>
+          <div class="gf_price_item clearfix">使用蓝卡账户：<span class="fr"><em>￥</em><%=orderInfo.scorelist_money%></span></div>
+          <div class="gf_price_item clearfix">运费：<span class="fr"><em>￥</em><%=orderInfo.delivery_fee%></span></div>
+        </div>
+        <!-- 第二种展示方式 -->
+        <div class="gf_total">
+          实付款：
+          <span><em>￥</em><%=orderInfo.pay_amount%></span>
+        </div>
+      </div>
+    
+      <!-- end -->
+    </div>
+  </main>
+</template>

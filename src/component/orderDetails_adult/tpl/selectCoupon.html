@@ -1,0 +1,116 @@
+<template>
+  <div class="drawer" data-v="<%=data.hash%>" style="display: block" >
+	<div class="drawer_mask <%=data.maskClass+'-'+data.hash%>" style="opacity: <%=data.opacity%>; z-index: <%=data.z_index%>;" ></div>
+	<div class="drawer_out">
+	  <div class="dw_head dw_m92">
+		<div class="fl">
+		  <a href="javascript:;" class="cancel <%=data.cancelBtn+'-'+data.hash%>"><%=data.cancelTxt%></a>
+		</div>
+		<div class="fr" >
+		  <a href="javascript:;" class="confirm <%=data.sureBtn+'-'+data.hash%>"><%=data.sureTxt%></a>
+		</div>
+		<div class="dw_h_name"><%=data.title%></div>
+	  </div>
+	  <div class="dw_body coupon">
+		<%
+		var couponData = data.data;
+		console.log(couponData);
+		%>
+		<!-- 选项卡 -->
+		<div class="tab skin2">
+		  <div class="tab_head">
+			<ul class="tab_list clearfix">
+			  <li>可用优惠券(<%=couponData.count_coupondetail_userful%>)</li>
+			  <li class="cur">不可用优惠券(<%=couponData.count_coupondetail_useless%>)</li>
+			</ul>
+		  </div>
+		  <!-- 列表 -->
+		  <div class="tab_body">
+			<div class="tab_con">
+			  <ul class="coup_list dw_m92" >
+				<%
+				var m = 0, userfulData = couponData.coupondetail_userful, ful_len = userfulData.length; 			if(ful_len > 0) {
+				for(; m < ful_len; m++){
+				var userfulInfo = userfulData[m];
+				%>
+				<li class="coup_item coup_shadow l_circle clearfix" attr_id="<%=userfulInfo.id%>"  attr_discount="<%=parseInt(userfulInfo.balance)%>" attr_threshold="<%=parseInt(userfulInfo.use_limit)%>">
+				  <div class="coup_amount fl">
+					<p class="coup_money"><%=parseInt(userfulInfo.balance)%><span>元</span></p>
+					<%
+					if(parseInt(userfulInfo.use_limit) == 0) {
+					%>
+					<p class="coup_threshold">零门槛</p>
+					<% } else { %>
+					<p class="coup_threshold">满<%=parseInt(userfulInfo.use_limit)%>可用</p>
+					<% } %>
+				  </div>
+				  <div class="coup_info fl">
+					<p class="coup_tit"><%=userfulInfo.title%></p>
+					<p class="coup_state"><%=userfulInfo.endtime%>到期&nbsp;( 剩余<em><%=userfulInfo.lasttime%></em>天 )</p>
+				  </div>
+				  <%
+				  console.log(userfulInfo.is_check);
+				  if(!userfulInfo.is_check) {
+				  %>
+				  <div class="coup_icon">
+					<span class="iconfont iconbuxuanzhong" ></span>
+				  </div>
+				  <% } else { %>
+				  <div class="coup_icon">
+					<span class="iconfont iconiconfontxuanzhong4" ></span>
+				  </div>
+				  <% } %>
+				</li>
+				<% } } else { %>
+				<li class="no_data">您没有可以使用的优惠券~</li>
+				<% } %>
+			  </ul>
+			</div>
+			<div class="tab_con">
+			  <ul class="coup_list dw_m92" >
+			<%
+			var n = 0, userlessData = couponData.coupondetail_userless, ful_len = userlessData.length;
+			if(ful_len > 0) {
+			  for(; n < ful_len; n++){
+			  var userlessInfo = userlessData[n];
+			%>
+			<li class="coup_item coup_shadow l_circle clearfix">
+			  <div class="coup_amount fl">
+				<p class="coup_money"><%=parseInt(userlessInfo.balance)%><span>元</span></p>
+				<%
+				if(userlessInfo.use_limit == 0) {
+				%>
+				<p class="coup_threshold">零门槛</p>
+				<% } else { %>
+				<p class="coup_threshold">满<%=userlessInfo.use_limit%>可用</p>
+				<% } %>
+			  </div>
+			  <div class="coup_info fl">
+				<p class="coup_tit"><%=userlessInfo.title%></p>
+				<p class="coup_state"><%=userlessInfo.endtime%>到期（<b><%=userlessInfo.status_str%></b>）</p>
+			  </div>
+			  <%
+			  if(userlessInfo.status == "1") {
+			  %>
+			  <div class="coup_icon">
+				<span class="iconfont iconyishiyong" ></span>
+			  </div>
+			  <% } %>
+			</li>
+			<% } } else { %>
+			<li class="no_data">您没有可以使用的优惠券~</li>
+			<% } %>
+		  </ul>
+			</div>
+		  </div>
+		  <!-- 确认操作 -->
+		  <div class="f_pay_sure" style="display: none">
+			确定
+		  </div>
+		</div>
+		<!-- end -->
+	  </div>
+	</div>
+  </div>
+</template>
+

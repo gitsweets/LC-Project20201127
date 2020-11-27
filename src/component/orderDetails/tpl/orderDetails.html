@@ -84,7 +84,7 @@
           var goodInfo = goodData[n];
           %>
           <div class="of_item clearfix">
-            <span class="fr"><em>￥</em><%=goodInfo.goods_price%></span>
+            <span class="fr"><em>￥</em><%= parseFloat(goodInfo.goods_price) * parseFloat(goodInfo.goods_num) %></span>
             <%=goodInfo.goods_name%>
           </div>
           <%

@@ -1,0 +1,27 @@
+.tips { }
+.t_c { padding: 0 5%; width: 90%; }
+/* 标题 */
+.t_head { padding: .5rem 0; }
+.t_tit { font-size: .85rem; color: #111; line-height: 1.5rem; text-align: center; font-weight: 600; }
+
+
+
+/* 内容 */
+.t_body { }
+.tips_list { }
+.tips_list li { font-size: .75rem; color: #666; line-height: 1.25rem; padding-bottom: .5rem; }
+
+/* 基本提示 */
+.t_name { }
+.t_des { }
+.tips.skin1 { }
+.tips.skin1 .t_name { font-size: .85rem; color: #f00; line-height: 1.5rem; padding: .5rem 1%; }
+.tips.skin1 .t_des { background: #fff; font-size: .75rem; line-height: 1rem; padding: .8rem 4%; }
+
+.tips.skin2 {  padding: .5rem 3%; background: #fff; border-radius: 5px; }
+.tips.skin2 .t_name { font-size: .85rem; color: #f00; line-height: 1.5rem; }
+.tips.skin2 .t_des { font-size: .75rem; line-height: 1rem; padding: .3rem 0 0 0; }
+
+/* 操作 */
+.t_opt { padding: .5rem 0; }
+

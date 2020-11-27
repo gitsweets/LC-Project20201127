@@ -11,6 +11,8 @@ var draw = require('../../vendors/drawer/js/drawer_m_v1.0.0');
 var Tab = require('../../vendors/tab/js/tab');
 // 获取模板
 var getTpl = require('../../vendors/tools/getTpl/getTpl');
+// BASE64解析
+var Base64 = require("../../vendors/Base64/Base64");
 
 // 模板文件引用
 var header = require('./tpl/head.html');

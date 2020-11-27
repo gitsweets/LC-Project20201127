@@ -1,0 +1,24 @@
+/* 圆角 */
+/* 百分比 */
+.radius_p50 { border-radius: 50%; }
+
+/* PX */
+.radius_p22 { border-radius: 22px; }
+
+/* REM */
+.radius_r2-2 { border-radius: 2.2rem; }
+.radius_r5 { border-radius: .5rem; }
+.radius_r8 { border-radius: .8rem; }
+.radius_r22 { border-radius: 2.2rem; }
+
+
+/* 顶部圆角 */
+.radius_t0-5 { border-radius: .5rem .5rem 0 0; }
+.radius_t0-8 { border-radius: .8rem .8rem 0 0; }
+.radius_t1 { border-radius: 1rem 1rem 0 0; }
+
+/* 兼容写法 */
+.radius50_per { -moz-border-radius: 50%; -khtml-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
+
+.radius015 { -moz-border-radius: .15rem; -khtml-border-radius: .15rem; -webkit-border-radius: .15rem; border-radius: .15rem; }
+.radius025 { -moz-border-radius: .25rem; -khtml-border-radius: .25rem; -webkit-border-radius: .25rem; border-radius: .25rem; }

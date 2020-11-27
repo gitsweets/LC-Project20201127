@@ -1,0 +1,39 @@
+<template>
+  <main>
+    <!-- 预约记录 -->
+    <div class="hot_selling" >
+      <ul class="otc_list clearfix" >
+        <%
+        var i = 0, hotSellingData = data.hot_selling_list, h_len = hotSellingData.length;
+        if(h_len < 1) {
+        %>
+          <li id="no_data">
+            <%=data.notice%>
+          </li>
+        <%
+        } else {
+          for(; i < h_len; i++){
+          var hotSellingInfo = hotSellingData[i];
+        var priceArr = hotSellingInfo.price.split(".");
+          %>
+        <li>
+          <div class="otc_info">
+            <a href="<%=hotSellingInfo.shop_url%>" >
+              <div class="o_i_img">
+                <img class="o_i_img" src="<%=hotSellingInfo.picture_url%>" alt="<%=hotSellingInfo.name%>">
+              </div>
+              <div class="o_i_des">
+                <p class="text_overflow tit"><%=hotSellingInfo.name%></p>
+                <p class="o_i_p o_i_price"><span class="price"><em>¥</em><%=priceArr[0]%>.<em><%=priceArr[1]%></em></span></p>
+              </div>
+            </a>
+          </div>
+        </li>
+        <%
+        }}
+        %>
+        
+      </ul>
+    </div>
+  </main>
+</template>

@@ -1,0 +1,102 @@
+<template>
+
+    <div class="drawer " style="display: block"  data-v="<%=data.hash%>" id="draw_<%=data.hash%>" >
+      <div class="drawer_mask  <%=data.maskClass+'-'+data.hash%>"></div>
+      <div class="drawer_out">
+        <!--<div class="drawer_cont">-->
+        <div class="dw_head dw_m92">
+          <div class="fl" >
+            <a href="javascript:;" class="cancel <%=data.cancelBtn+'-'+data.hash%>">返回</a>
+          </div>
+          <div class="fr" style="display: none">
+            <a href="javascript:;" class="confirm <%=data.sureBtn+'-'+data.hash%>">确认</a>
+          </div>
+          <div class="dw_h_name">选择国籍</div>
+        </div>
+        <div class="dw_search dw_m92">
+          <!-- 搜索 -->
+          <div class="select_list_search">
+            <div class="s_l_search" >
+              <input class="search_val" type="search" autocomplete="off" placeholder="请输入国家名称或简码" value=""  />
+            </div>
+          </div>
+        </div>
+        <div class="dw_body dw_m92">
+          <%
+          var i = 0, d = 0, countryData = data.country, len = countryData.length, curCountry = data.curCountry, countryName = "iconxuanzhong";
+          %>
+          <!-- 显示数据列表 -->
+          <ul class="select_list list_bt search_on">
+            <%
+            for(; d<len; d++){
+            var countryInfo = countryData[d];
+            countryName = "iconxuanzhong"
+            if(curCountry.name == countryInfo.CHINESE) {
+            countryName = "iconiconfontxuanzhong4";
+            }
+            %>
+            <li class="on" attr_id="<%=countryInfo.id%>" attr_CHINESE="<%=countryInfo.CHINESE%>" attr_Numeric="<%=countryInfo.Numeric%>" attr_Alpha3code="<%=countryInfo.Alpha3code%>" >
+    
+              <div class="fl ">
+                <span class="iconfont <%=countryName%> s_select"></span>
+              </div>
+    
+              <div class="s_list_tit">
+                <div>
+                  <%=countryInfo.CHINESE%>
+                </div>
+                <div style="display: none">
+                  <%=countryInfo.Alpha3code%>
+                </div>
+                <div style="display: none">
+                  <%=countryInfo.Alpha3code.toLowerCase()%>
+                </div>
+                <div style="display: none">
+                  <%=countryInfo.Numeric%>
+                </div>
+              </div>
+            </li>
+            <%
+            }
+            %>
+          </ul>
+          <!-- 全数据列表 -->
+          <ul class="select_list list_bt search_off" style="display: none">
+            <%
+            for(; i<len; i++){
+            var countryInfo = countryData[i];
+            countryName = "iconxuanzhong"
+            if(curCountry.name == countryInfo.CHINESE) {
+            countryName = "iconiconfontxuanzhong4";
+            }
+            %>
+            <li class="on" attr_id="<%=countryInfo.id%>" attr_CHINESE="<%=countryInfo.CHINESE%>" attr_Numeric="<%=countryInfo.Numeric%>" attr_Alpha3code="<%=countryInfo.Alpha3code%>" >
+            
+              <div class="fl ">
+                <span class="iconfont <%=countryName%> s_select"></span>
+              </div>
+            
+              <div class="s_list_tit">
+                <div>
+                  <%=countryInfo.CHINESE%>
+                </div>
+                <div style="display: none">
+                  <%=countryInfo.Alpha3code%>
+                </div>
+                <div style="display: none">
+                  <%=countryInfo.Alpha3code.toLowerCase()%>
+                </div>
+                <div style="display: none">
+                  <%=countryInfo.Numeric%>
+                </div>
+              </div>
+            </li>
+            <%
+            }
+            %>
+          </ul>
+        </div>
+        <!--</div>-->
+      </div>
+    </div>
+</template>

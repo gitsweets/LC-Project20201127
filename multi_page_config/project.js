@@ -1,1 +1,1 @@
-exports.name = 'multiPage'
+exports.name = 'physical'

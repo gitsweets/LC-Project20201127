@@ -1,0 +1,12 @@
+/* 文字超出一行省略 */
+.text_overflow { overflow: hidden;text-overflow: ellipsis; white-space: nowrap; }
+
+/* 英文换行 */
+.text_break { word-break:keep-all; }
+/* 英文换行 单词 */
+.text_break { word-break:break-word; }
+
+
+
+
+

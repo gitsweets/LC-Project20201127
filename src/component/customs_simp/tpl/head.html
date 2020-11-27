@@ -1,0 +1,21 @@
+<template>
+  <header class="head">
+    <%
+    var headInfo = data;
+    %>
+    <a class="iconfont iconback" href="javascript:window.history.back();"></a>
+    <h1><%=headInfo.title%></h1>
+    <%
+    if(!headInfo.is_logged) {
+    %>
+    <a class="signin" href="/signin">登录</a>
+    <%
+    } else {
+    %>
+    <a class="member" href="/settings">我</a>
+    <%
+    }
+    %>
+  </header>
+</template>
+

@@ -1,0 +1,20 @@
+/** 重置样式 */
+@import url(../../asset/css/module/reset.css);
+
+/* 字体图标 */
+@import url(../../asset/font/common/iconfont.css);
+
+/** 模块样式 */
+@import url(../../asset/css/module/media.css);
+/*@import url(../../asset/css/module/common.css);*/
+@import url(../../asset/css/module/layout.css);
+
+/* 组件样式 */
+@import url(../../asset/css/module/head.css);
+
+/* 扫码二维码 */
+@import url(../../asset/utils/qrCode/qrCode.css);
+
+
+
+

@@ -1,0 +1,24 @@
+/* 顶栏 */
+.top_bar { }
+/* 页面标题 */
+.tb_pagetitle { }
+/* 搜索 */
+.tb_bedienfeld { height: 1.5rem; padding: .6rem 0; /*padding: .5rem 0; background:#fff;*/ }
+.tb_search { margin-right:2rem; background: #fff; }
+.tb_bedienfeld .group_search { }
+.tb_bedienfeld .gp_search { width: auto; margin-right:2rem; background: #fff; line-height: 1.5rem; }
+.tb_bedienfeld .gp_search.row { margin-right:0; }
+.tb_bedienfeld .gp_search .gp_input { padding: 0 2rem 0 5%; }
+.tb_bedienfeld .input_control { height: 1.5rem; text-align: left; }
+.tb_bedienfeld .input_control:focus { /*outline: none;*/ }
+
+/* 扫一扫 */
+.tb_bedienfeld .tb_qrcodeScan { padding: 0 .2rem; width: 1.2rem; }
+.tb_bedienfeld .tb_qrcodeScan .iconfont { font-size: 1.2rem; line-height: 1.5rem; }
+
+.tbs_text { padding-right: 1.5rem; }
+.tbs_text input[type="search"] { font-size: .7rem; display: block; width: 100%;  padding: .1rem 3% .1rem 5%; line-height: 1.2rem; border: none; }
+.tbs_text input:focus { outline: none }
+.tbs_btn { width: 1.5rem; text-align: center; }
+.tbs_btn .iconfont { font-size: 1rem; line-height: 1.5rem; }
+

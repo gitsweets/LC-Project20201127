@@ -1,0 +1,48 @@
+<template>
+  <main>
+    <!-- 绑定设备 -->
+    <div class="device_bind" >
+      <%
+      var noticeInfo = data.notice;
+      %>
+      <!-- 操作提示 -->
+      <div class="tips skin2">
+        <!--标题-->
+        <div class="t_name">
+          <%=noticeInfo.notice_title%>
+        </div>
+        <!--内容-->
+        <div class="t_des">
+          <%=noticeInfo.notice%>
+        </div>
+        <!-- end -->
+      </div>
+      <!-- SN号 -->
+      <div class="db_form">
+      
+        <div class="group">
+          <span class="gp_tit"><%=noticeInfo.barcode_title%></span>
+          <div class="gp_input gp_w fr">
+            <input id="sn" name="sn" class="input_control mbsc-comp" value="<%=data.sn%>" disabled >
+          </div>
+        </div>
+      </div>
+    
+      <!-- 操作按钮 -->
+      <div class="btn bg65ca65 db_btn" id="submitUnbind" >
+        解绑
+      </div>
+      <%
+      // 判断是否跳转血压记录
+      if(data.history) {
+      %>
+      <!-- 购买设备 -->
+      <div class="db_link">
+        <a href="<%=data.history.url%>" ><%=data.history.name%></a>
+      </div>
+      <% } %>
+      <!-- end -->
+  
+    </div>
+  </main>
+</template>

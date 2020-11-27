@@ -9,7 +9,7 @@ let commonConfig = {
 	// 开发目录
 	devPath: './src/',
 	// 开发端口
-	devPort: 8081,
+	devPort: 8092,
 	// 发布目录
 	buildPath: '../dist/',
 	// 相对路径
@@ -102,8 +102,8 @@ commonConfig.devServer = {
 	// contentBase: path.join(__dirname, 'dist'),
 	contentBase: './src/',
 	// 开发端口
-	// port: commonConfig.devPort,	//
-	port: 8091,
+	port: commonConfig.devPort,	//
+	// port: 8091,
 	// 访问地址
 	// host:'0.0.0.0',
 	host:'localhost',

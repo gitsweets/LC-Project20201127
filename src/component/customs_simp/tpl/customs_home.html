@@ -1,0 +1,160 @@
+<template>
+  <main>
+    <div class="customs_home">
+      <%
+      var m,
+        bannerData = data.banner,
+        navData = data.button,
+        faqMore = data.more,
+        hotSelling = data.hot_selling_area,
+        faqInfo = data.qa_info;
+      %>
+      <!-- 图片切换 -->
+      <div class="banner swipe_banner" >
+        <%
+        var i = 0, k = 0, b_len = bannerData.length;
+        if(b_len > 0) {
+        %>
+        <div class="addWrap" style="border-bottom: none;">
+          <div class="swipe" id="mySwipe" >
+            <div class="swipe-wrap" style="width: 320px;">
+              <%
+              for(; i < b_len; i++){
+              var bannerInfo = bannerData[i];
+              %>
+              <div data-index="0" >
+                <a href="<%=bannerInfo.url%>">
+                  <img class="openImages img-responsive" src="<%=bannerInfo.picture%>" >
+                </a>
+              </div>
+              <%
+              }
+              %>
+            </div>
+          </div>
+          <ul id="position">
+            <%
+            if(b_len > 1) {
+              for(; k < b_len; k++){
+              var bannerInfo = bannerData[k];
+              var curClass = "";
+              if(k==0) {
+              curClass = "cur";
+              }
+              %>
+              <li class="<%=curClass%>"></li>
+            <%
+            }}
+            %>
+          </ul>
+        </div>
+        <% } else { %>
+        <img src="<%=bannerData.url%>" >
+        <% } %>
+      </div>
+      <!-- 导航 -->
+      <div class="customs_nav">
+        <ul class="nav_list clearfix">
+          <%
+          for(m in navData){
+          var navInfo = navData[m];
+          if(navInfo.url) {
+          %>
+          <li>
+            <div class="nav_con n_m80">
+              <a href="<%=navInfo.url%>" >
+                <img src="<%=navInfo.picture_url%>">
+                <span><%=navInfo.name%></span>
+              </a>
+              
+            </div>
+          </li>
+          <% } else { %>
+          <li attr_link="<%=navInfo.link%>" attr_flag="0" >
+            <div class="nav_con n_m80">
+              <a href="javascript:void(0);" >
+                <img src="<%=navInfo.picture_url%>">
+                <span><%=navInfo.name%></span>
+              </a>
+            </div>
+          </li>
+          <%
+          }}
+          %>
+        </ul>
+      </div>
+      <%
+      if(data.is_hot_selling_area) {
+      %>
+      <!-- 热卖区 -->
+      <div class="column bgf1f5f8">
+        <div class="column_name">
+          <%
+          if(data.more.boolean_more) {
+          %>
+          <a class="fr" href="<%=data.more.url%>" ><em class="iconfont iconyoujiantou fr"></em><%=data.more.button_name%></a>
+          <%
+          }
+          %>
+          <span><%=data.more.title_name%></span>
+        </div>
+        <ul class="otc_list clearfix">
+          <%
+          var k = 0, hotSellingData = hotSelling.hot_selling_list, h_len = hotSellingData.length;
+          for(; k < h_len; k++){
+          var hotSellingInfo = hotSellingData[k];
+          var priceArr = hotSellingInfo.price.split(".");
+          %>
+          <li>
+            <div class="otc_info">
+              <a href="<%=hotSellingInfo.shop_url%>" >
+                <div class="o_i_img">
+                  <img class="o_i_img" src="<%=hotSellingInfo.picture_url%>" alt="<%=hotSellingInfo.name%>">
+                </div>
+                <div class="o_i_des">
+                  <p class="text_overflow tit"><%=hotSellingInfo.name%></p>
+                  <p class="o_i_p o_i_price"><span class="price"><em>¥</em><%=priceArr[0]%>.<em><%=priceArr[1]%></em></span></p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <%
+          }
+          %>
+        </ul>
+      </div>
+      <% } else { %>
+      <!-- FAQ -->
+      <div class="column">
+        <div class="column_name">
+          <img class="fl mid" src="<%=data.more.img%>" >
+          <%
+          if(data.more.boolean_more) {
+          %>
+          <a class="fr" href="<%=data.more.url%>" ><em class="iconfont iconyoujiantou fr"></em><%=data.more.button_name%></a>
+          <%
+          }
+          %>
+          <span><%=data.more.title_name%></span>
+        </div>
+        <ul class="faq_list">
+          <%
+          var n = 0, faqData = faqInfo.qa, len = faqData.length;
+          for(; n < len; n++){
+          var faqConInfo = faqData[n];
+          %>
+          <li>
+            <div class="faq_tit"><%=faqConInfo.question%></div>
+            <div class="faq_des"><%=faqConInfo.answer%></div>
+          </li>
+          <%
+          }
+          %>
+        </ul>
+      </div>
+      
+      <% } %>
+      <!-- end -->
+    </div>
+  </main>
+</template>

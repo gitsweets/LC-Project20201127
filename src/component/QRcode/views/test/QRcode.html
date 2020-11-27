@@ -1,0 +1,16 @@
+<template>
+  <main>
+    <div class="qrCode">
+      <div class="qc_title" ><%=data.title%></div>
+      <div class="qc_img"><img src="<%=data.url%>"></div>
+      <%
+      // 判断是微信
+      if(data.is_countdown) {
+      %>
+      <div class="qc_instructions" ><%=data.time_remaining%></div>
+      <%
+      }
+      %>
+    </div>
+  </main>
+</template>

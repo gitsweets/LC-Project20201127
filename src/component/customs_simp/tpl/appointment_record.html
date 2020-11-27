@@ -1,0 +1,70 @@
+<template>
+  <main>
+    <!-- 预约记录 -->
+    <div class="appointment_record" >
+      <ul class="ar_list" >
+        <%
+        var i = 0, recordData = data.list,r_len = recordData.length;
+        if(r_len < 1) {
+        %>
+          <li id="no_data">
+            <%=data.empty_notice%>
+          </li>
+        <%
+        } else {
+          for(; i < r_len; i++){
+          var recordInfo = recordData[i];
+          %>
+          <li>
+            <div class="ar_head clearfix">
+              <%
+              var status_c = 'c65ca65';
+              if(recordInfo.registration_status_key == "1") {
+                status_c = 'c65ca65';
+              } else if(recordInfo.registration_status_key == "2") {
+                status_c = 'c00a7ff';
+              } else if(recordInfo.registration_status_key == "-1") {
+                status_c = 'c999';
+              } else if(recordInfo.registration_status_key == "-2") {
+                status_c = 'cff6050';
+              }
+              %>
+              <span class="ar_right fr <%=status_c%>"><%=recordInfo.registration_status||''%></span>
+              <p class="ar_left"><span>预约人：</span><%=recordInfo.name%></p>
+            </div>
+            <div class="ar_con">
+              <p class="ar_con_p"><span>预约项目：</span><%=recordInfo.sale_item||''%></p>
+              <p class="ar_con_p"><span>预约时间：</span><%=recordInfo.registration_time||''%></p>
+            </div>
+            <div class="ar_opt clearfix">
+              <div class="ar_opt_btn fr apt_detail"  attr_identifier = "<%=recordInfo.identifier%>">
+                查看详情
+              </div>
+              <%
+              if(recordInfo.is_cancel_status) {
+              %>
+              <div class="ar_opt_btn fr apt_cancel" attr_identifier = "<%=recordInfo.identifier%>">
+                取消预约
+              </div>
+              <%
+              }
+              %>
+              <%
+              if(recordInfo.is_checkin_status) {
+              %>
+              <div class="ar_opt_btn fr apt_signin" attr_identifier = "<%=recordInfo.identifier%>" >
+                签到
+              </div>
+              <%
+              }
+              %>
+            </div>
+          </li>
+        <%
+        }}
+        %>
+        
+      </ul>
+    </div>
+  </main>
+</template>

@@ -1,0 +1,22 @@
+/* OTC列表 */
+.otc_list { }
+.otc_list li { width: 48%; float: left; margin-bottom: .5rem; background: #fff; }
+.otc_list li:nth-child(2n+1) { margin-right: 4%; }
+.otc_info { }
+.otc_info a { display: block; }
+
+.o_i_img { }
+.o_i_img img { width: 100%; border-bottom: 1px #f1f5f7 solid; display: block; }
+.o_i_des { padding: .25rem 0; }
+.o_i_des p { font-size: .7rem; line-height: 1rem; padding: .25rem 4%; color: #333; }
+.o_i_des p.tit { height: 1rem;  }
+.o_i_des p.price { }
+.o_i_des span.price { color: #f64e4e; display: inline-block; font-size: .75rem; }
+.o_i_des span.price em { font-size: .5rem; }
+.o_i_des span.price em:first-child { padding-right: 2px; }
+.o_i_des span.sales { color: #fff; font-size: .6rem; display: inline-block; background: url("./images/icon.png") no-repeat left center; padding: 0 5px; height: 1rem; background-size: contain; margin-left: 8px; }
+.o_i_des span.opt { }
+
+
+
+

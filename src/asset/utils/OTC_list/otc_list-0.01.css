@@ -1,0 +1,39 @@
+/* 猜你喜欢 */
+.w_r86 { width: 8.6rem; }
+.w_per32 { width: 32%; }
+.w_per45 { width: 48%; }
+.w_per48-5 { width: 48.5%; }
+/*.ml_r5 { margin-left: .5rem; }*/
+.mb_r5 { margin-bottom: .5rem; }
+.radius_r1_5 { border-radius: .15rem; }
+.radius_r5 { border-radius: .5rem; }
+
+.otc_like { }
+.otc_l_column { display: flex; flex-wrap:wrap; justify-content: center; align-content: flex-start; align-items: center; padding: 0 0 .5rem; }
+.col_adorn { border-top: .08rem #c5ccd3 solid; width: 1.4rem; }
+.col_name { font-size: .7rem; line-height: 1.4rem; color: #75808d; padding: 0 .45rem; }
+
+/* 药品列表 */
+.otc_list { display: flex; flex-wrap:wrap; justify-content:space-between; align-content: flex-start; }
+.otc_list li { }
+.otc_list li:first-child { margin-left: 0; }
+.otc_con { overflow: hidden; padding: .25rem .5rem; position: relative; }
+.otc_c_img { }
+.otc_c_img img { width: 100%; }
+.otc_c_tit { font-size: .7rem; color: #1e2a39; line-height: 1.1rem; height: 2.2rem; /*min-height: 2.2rem;*/ overflow: hidden; margin: .3rem 0; }
+.otc_c_tit span { display: inline-block; float: left; font-size: .5rem; color: #fff; line-height: .85rem; margin-right: .2rem; padding: 0 .15rem; margin-top: .1rem; }
+.otc_c_price { line-height: 1rem; display: flex; align-items: baseline; }
+.otc_c_real { color: #f2413c; font-size: .75rem; }
+.otc_c_real em { font-size: .5rem; padding: 0 .1rem; }
+.otc_c_real span { }
+.otc_c_original { color: #555; font-size: .6rem; margin: 0 0 0 .2rem; text-decoration:line-through; }
+.otc_c_original em { font-size: .5rem; padding: 0 .1rem; }
+.otc_c_original span { }
+
+.otc_c_tag { position: absolute; top: .5rem; right: 4%; color: #fff; width: 1.25rem; height: .65rem; }
+.t_otc { background:url('../../images/InternetPharmacy/otc.png') no-repeat right top; background-size: contain; }
+.t_rx {  background:url('../../images/InternetPharmacy/rx.png') no-repeat right top; background-size: contain; }
+
+
+
+

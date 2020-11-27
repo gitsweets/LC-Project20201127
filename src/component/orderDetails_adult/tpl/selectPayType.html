@@ -1,0 +1,37 @@
+<template>
+  <div class="drawer" data-v="<%=data.hash%>" style="display: block" >
+	<div class="drawer_mask <%=data.maskClass+'-'+data.hash%>" style="opacity: <%=data.opacity%>; z-index: <%=data.z_index%>;" ></div>
+	<div class="drawer_out">
+	  <div class="dw_head dw_m92">
+		<div class="fl">
+		  <a href="javascript:;" class="cancel <%=data.cancelBtn+'-'+data.hash%>"><%=data.cancelTxt%></a>
+		</div>
+		<div class="fr" style="display: none">
+		  <a href="javascript:;" class="confirm <%=data.sureBtn+'-'+data.hash%>"><%=data.sureTxt%></a>
+		</div>
+		<div class="dw_h_name"><%=data.title%></div>
+	  </div>
+	  <div class="dw_body dw_m92" style="height: <%=data.height%>;">
+		<ul class="select_time">
+		  <li data-pay="wxpay">
+			<div class="pay_con clearfix">
+			  <div class="pay_name">
+				<span class="iconfont iconweixin fl"></span>
+				微信支付
+			  </div>
+			</div>
+		  </li>
+		  <li data-pay="alipay">
+			<div class="pay_con clearfix">
+			  <div class="pay_name">
+				<span class="iconfont iconzhifubao fl"></span>
+				支付宝支付
+			  </div>
+			</div>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</template>
+

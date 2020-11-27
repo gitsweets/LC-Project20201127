@@ -1,0 +1,13 @@
+.select_user { }
+.select_user li { border-top: 1px #eee solid; padding: .5rem 0; line-height: 1.4rem; font-size: .7rem; }
+.select_user li:first-child { border-top:none; }
+.s_user_data { color: #000; font-size: .8rem; }
+.s_user_count { color: #666; font-size: .75rem; }
+.s_operable { margin-top: .25rem; color: #3AAEE9; line-height: 1.4rem; padding: 0 .5rem; border: 1px #3AAEE9 solid; border-radius: 1rem; }
+.s_inoperable { margin-top: .25rem; color: #aaa; line-height: 1.4rem; padding: 0 .5rem; border: 1px #aaa solid; border-radius: 1rem; }
+
+
+
+
+
+

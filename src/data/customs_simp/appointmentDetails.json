@@ -1,0 +1,33 @@
+{
+  "ResultCode":1,
+  "ResultDescription":"成功",
+  "Result":{
+    "feedback_info":"李中秋qpqpqpwoeqeqeqeqe，您好！您已预约2020年07月17日08:30-09:00在天津国际旅行卫生保健中心进行预防接种业务，请于约定时间达到现场办理业务。如需更改或取消预约，请至预约记录界面自行操作。",
+    "application_info":{
+      "fullname":"李中秋qpqpqpwoeqeqeqeqe",
+      "nationality":"中国",
+      "typeofidcard":"护照",
+      "idcard":"211302198509053611",
+      "mobile":"18642090581",
+      "name_of_unit":"程序员",
+      "gender":"男",
+      "birthday":"1980-01-01"
+    },
+    "register_info":{
+      "id":"451",
+      "identifier":"02dfeb62bcc086cb123977ac7329156b",
+      "name":"李中秋qpqpqpwoeqeqeqeqe",
+      "phone":"18642090581",
+      "idcardnum":"211302198509053611",
+      "registration_time":"2020-07-17 08:30-09:00",
+      "registration_status":"已签到",
+      "registration_status_key":"2",
+      "sale_item":"核酸检测",
+      "registration_organization_id":"1",
+      "registration_organization_name":"天津市国际旅行卫生保健中心",
+      "registration_organization_address":"天津市国际旅行卫生保健中心一楼大厅",
+      "is_cancel_status":0,
+      "is_checkin_status":1
+    }
+  }
+}

@@ -472,7 +472,7 @@
 	};
 
 	var Router = function (opt) {
-		console.log("实例化！");
+		console.log("实例化2！");
 		return new _Router();
 	};
 

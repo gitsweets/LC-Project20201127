@@ -5,7 +5,7 @@
 .d_slide { min-height: 6rem; background: #fff; text-align: center; }
 .d_slide img { max-width: 100%; }
 /* 药品名称和价格 */
-.d_info { background: #fff; padding-top: .5rem; }
+.d_info { background: #fff; padding: .5rem 3%; }
 .d_tit { line-height: 1rem; font-size: .7rem; color: #333; }
 .d_price { line-height: 1.5rem; padding: .3rem 0 0; }
 .d_price div {  display: inline-block; padding-right: .5rem; }
@@ -15,6 +15,8 @@
 .d_real { color: #f2413c; font-size: .9rem; }
 .d_real em { font-size: .75rem; padding: 0 .1rem; }
 .d_real span { font-size: .9rem; }
+
+.d_promotion { font-size: .65rem; line-height: 1.2rem; }
 
 /* 药品规格和参数 */
 .d_specs { }
@@ -26,6 +28,11 @@
 .d_introduce { background: #fff; }
 .di_name { font-weight: bolder; color: #333; font-size: .75rem; line-height: 1.8rem; border-bottom: 1px #dfdfdf solid; padding: 0 3%; }
 .di_con { color: #333; font-size: .65rem; line-height: 1.2rem; }
-.di_con img { width: 100%; display: block; }
+.di_con img { width: 100%; display: block; background: url(./loading_img.gif) no-repeat center 50%; }
 /* 评价 */
 .dd_reviews { }
+
+/* 购买数量 */
+.gd_count { background: #fff; padding: .4rem 4%; margin-bottom: .5rem; }
+.gc_name { }
+.gc_opt { }

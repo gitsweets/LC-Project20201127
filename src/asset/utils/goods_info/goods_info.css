@@ -5,10 +5,13 @@
 /* 商品列表 */
 .gf_list { }
 .gf_list li { border-bottom: 1px #eee solid; }
+.gf_list li.bddd { border-bottom: 1px #ddd solid; }
 .gf_item { display: flex; padding:.75rem 0; }
+.gf_item1 { padding:.75rem 0; }
+/* 项目信息 */
+.gf_item_info { display: flex; }
 .gf_item_img { width: 2rem; padding:.1rem .6rem 0 0; }
 .gf_item_img img { width: 100%; display: block; }
-.gf_item_info { display: flex; }
 .gf_item_tit { color: #111; font-size: .7rem; line-height: 1rem; flex: 1; }
 .gf_item_other { text-align: right; padding-left: .3rem; }
 .gf_item_other span { color: #ff6050; font-size: .75rem; display: inline-block;  line-height: 1rem; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
@@ -16,6 +19,14 @@
 .gf_item_other i { display: inline-block;  line-height: 1rem; color: #999; font-size: .75rem;  }
 /* 图片显示 宽度不同 */
 .gf_item.skin1 .gf_item_img { width: 5rem; }
+.gf_item1.skin1 .gf_item_img { width: 5rem; }
+
+/* 检验信息 */
+.gf_inspect { line-height: 1.2rem; border-top: 1px #eee solid; padding:.5rem 0; color: #999; }
+.gt_name { }
+.gt_state { }
+.gt_time { }
+.gt_name span, .gt_state span, .gt_time span { color: #111; }
 
 /* 价格小计 左右显示 */
 .gf_price { padding: .5rem 0; border-bottom: 1px #eee solid; }

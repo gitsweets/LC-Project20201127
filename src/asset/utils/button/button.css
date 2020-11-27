@@ -1,0 +1,40 @@
+/* 按钮 */
+.btn { width: 100%; height: 2.2rem; line-height: 2.2rem; border-radius: 5px; text-align: center; font-size: .7rem; color: #fff; }
+
+/* input按钮 */
+.btn_input { background: none; border: none; }
+.btn_inline { width: 100%; }
+
+/* 颜色渐变 */
+.gradient { }
+.gradient_left {
+    background: -webkit-linear-gradient(left, #0785fd, #00a7ff);
+    background: -o-linear-gradient(left, #0785fd, #00a7ff);
+    background: -moz-linear-gradient(left, #0785fd, #00a7ff);
+    background: -mos-linear-gradient(left, #0785fd, #00a7ff);
+    background: linear-gradient(left, #0785fd, #00a7ff);
+}
+
+.gradient_right {
+    background: -webkit-linear-gradient(right, #0785fd, #00a7ff);
+    background: -o-linear-gradient(right, #0785fd, #00a7ff);
+    background: -moz-linear-gradient(right, #0785fd, #00a7ff);
+    background: -mos-linear-gradient(right, #0785fd, #00a7ff);
+    background: linear-gradient(right, #0785fd, #00a7ff);
+}
+
+
+/* 圆角 */
+.br_p50 { border-radius: 50%; }
+
+.br_r2-2 { border-radius: 2.2rem; }
+
+
+
+
+
+
+
+
+
+

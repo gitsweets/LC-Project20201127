@@ -1,0 +1,19 @@
+{
+  "ResultCode":1,
+  "ResultDescription":"预约成功",
+  "Result":{
+    "record":{
+      "id":618,
+      "identifier":"ae82c9d236417e06ac84fafd698ea5a9"
+    },
+    "registration_record":{
+      "id":457,
+      "identifier":"dcc01264b6964103b435ecf346cbe5d6"
+    },
+    "application_context_record":{
+      "identifier":"c3784f948ff769f69fa6b1fbaebdc3e2",
+      "id":"923"
+    },
+    "feedback_info":"1，您好！您已预约2020年07月15日08:30-09:00在天津国际旅行卫生保健中心进行预防接种业务，请于约定时间达到现场办理业务。如需更改或取消预约，请至预约记录界面自行操作。"
+  }
+}

@@ -1,0 +1,47 @@
+/* 表单提交 */
+.form { }
+/* 表单项 */
+.inline_group { }
+.group { line-height: 1.8rem; padding: .3rem 0; background: #fff; border-bottom: 1px #eee solid; }
+.gp_tit { color: #111; font-size: .75rem; display: inline-block; }
+.gp_des { }
+.gp_opt { }
+.gp_img { }
+
+/* 通用配置 */
+.gp_lh { line-height: 1.8rem; }
+.gp_h { height: 1.8rem; }
+.gp_w { width: 13rem; }
+
+/* 抽屉样式 */
+.gp_drawer { width: 13rem; text-align: right; }
+.gp_dw_con { display: inline-block; color: #666; font-size: .75rem; vertical-align: top; max-width: 11.6rem; }
+.gp_dw_icon { display: inline-block; color: #999; font-size: 1rem; margin-left: .1rem; }
+
+/* 输入框样式 */
+.gp_input { width: 13rem; }
+.input_control { width: 96%; height: 1.8rem; border: none; padding: 0 2%; text-align: right; font-size: .75rem; }
+
+/* 扫码输入框 */
+.gp_scan_code { width: 13rem; }
+.gp_scan_code .iconfont { width: 9.2%; padding: 0 2%; font-size: 1.1rem; }
+.gp_scan_code .gp_input { width: auto; padding-right: 13.5%; }
+
+/* 搜索输入框 */
+.gp_search { width: 13rem; }
+.gp_search.row {width: 100%; }
+.gp_search .iconfont { width: 1.4rem; padding: 0 .2rem; font-size: 1.1rem; text-align: center; }
+.gp_search .gp_input { width: auto; padding-right: 2rem; height: 1.5rem; }
+
+/* 手机验证码输入框 */
+.gp_text_code { width: 12.4rem; }
+.gp_text_code span { width: 35%; text-align: center; padding: 0 2%; font-size: .7rem; color: #3caee7; }
+.gp_text_code .gp_input { width: auto; padding-right: 40%; }
+
+/* 图文验证码输入框 */
+.gp_img_code { width: 12.4rem; }
+.gp_img_code .gp_input { width: auto; padding-right: 40%; }
+.gp_img {  width: 35%; height: 1.8rem; text-align: center; padding: 0 2%; }
+.gp_img img { display: inline-block; height: 90%; padding-top: 2%; }
+
+

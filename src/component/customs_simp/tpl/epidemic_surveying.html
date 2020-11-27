@@ -1,0 +1,88 @@
+<template>
+  <main>
+    <div class="register">
+      <%
+      var i = 0, len = data.length;
+      for (; i < len; i++) {
+      var registerInfo = data[i], str = '';
+      %>
+        <%
+        // 判断国籍
+        if(registerInfo.id == "11111") {
+        %>
+        <div class="group">
+          <span class="gp_tit"><%=registerInfo.key_context_Chinese%></span>
+          <div class="gp_drawer fr" style="display: none" attr_id="<%=registerInfo.id%>" id="<%=registerInfo.identifier%>">
+            <%
+            if(registerInfo.value) {
+              str = registerInfo.value;
+            } else {
+              str = '请选择' + registerInfo.key_context_Chinese;
+            }
+            %>
+            <span class="gp_dw_con"><%=str%></span>
+            <span class="iconfont iconyoujiantou gp_dw_icon"></span>
+          </div>
+        </div>
+        <%
+        } else {
+        %>
+        <div class="group">
+          <span class="gp_tit"><%=registerInfo.key_context_Chinese%></span>
+          <div class="gp_input fr">
+            
+            <%
+            // 判断性别
+            if((registerInfo.id == "4")) {
+            %>
+            <ul id="<%=registerInfo.identifier%>"  name="<%=registerInfo.id%>" style="display:none">
+              <%
+              var m = 0, genderData = registerInfo.children, g_len = genderData.length;
+              for(; m<g_len; m++) {
+              var genderInfo = genderData[m];
+              %>
+              <li data-id="<%=genderInfo.id%>" data-text="<%=genderInfo.id%>" name="<%=genderInfo.id%>" data-val="<%=genderInfo.key_context_Chinese%>,<%=genderInfo.id%>"><%=genderInfo.key_context_Chinese%></li>
+              <%
+              }
+              %>
+            </ul>
+            <%
+            } else if(registerInfo.id == "7") {
+            // 判断出生日期
+            %>
+            <input id="<%=registerInfo.identifier%>"  name="<%=registerInfo.id%>" class="input_control" placeholder="请输入<%=registerInfo.key_context_Chinese%>" placeholder="Please Select..." />
+            
+            <%
+            } else if(registerInfo.id == "117") {
+            // 判断证件类型
+            %>
+            <ul id="<%=registerInfo.identifier%>"  name="<%=registerInfo.id%>" class="card_type" style="display:none">
+              <%"typeofidcard"
+              var k = 0, cardTypeData = registerInfo.children, cardType_len = cardTypeData.length;
+              for(; k<cardType_len; k++) {
+              var cardTypeInfo = cardTypeData[k];
+              %>
+              <li data-id="<%=cardTypeInfo.id%>" data-val="<%=cardTypeInfo.key_context_Chinese%>,<%=cardTypeInfo.id%>"><%=cardTypeInfo.key_context_Chinese%></li>
+              <%
+              }
+              %>
+            </ul>
+            <%
+            } else {
+            %>
+            <input type="text" name="<%=registerInfo.id%>" value="<%=registerInfo.value%>" class="input_control" placeholder="请输入<%=registerInfo.key_context_Chinese%>" autocomplete="off" >
+            <%
+            }
+            %>
+          </div>
+        </div>
+        <%
+        }
+        %>
+      <%
+      }
+      %>
+      <!-- end -->
+    </div>
+  </main>
+</template>

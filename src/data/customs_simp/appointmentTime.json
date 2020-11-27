@@ -1,0 +1,42 @@
+{
+  "ResultCode":1,
+  "ResultDescription":"成功",
+  "Result":{
+    "time_table":[
+      {
+        "date":"2020-07-16",
+        "unix_time":"1594828800",
+        "week_string":"周四",
+        "time_period":[
+          {
+            "id":"2",
+            "time_string":"09:30-10:00",
+            "register_amount_limited":"30",
+            "left_amount":30
+          }
+        ]
+      },
+      {
+        "date":"2020-07-21",
+        "unix_time":"1595260800",
+        "week_string":"周二",
+        "time_period":[
+          {
+            "id":"2",
+            "time_string":"09:30-10:00",
+            "register_amount_limited":"30",
+            "left_amount":30
+          }
+        ]
+      }
+    ],
+    "time_table_notice":"暂无工作日程表",
+    "is_exist_relevant_no_charge_booking_service":{
+      "is_exist":false,
+      "is_exist_notice":"已存在此类预约，如需更改或取消预约，请至预约记录界面自行操作。",
+      "register":[
+
+      ]
+    }
+  }
+}

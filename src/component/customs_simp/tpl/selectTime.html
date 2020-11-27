@@ -1,0 +1,28 @@
+<template>
+  <ul id="time_slot" style="display:none">
+	<%
+	var m = 0, time_len = data.length;
+	console.log(time_len);
+	for(; m<time_len; m++) {
+	var timeList = data[m];
+	%>
+	<li data-val="<%=timeList.date%>,<%=m%>" attr_id="<%=m%>" >
+	  <%=timeList.date%>(<%=timeList.week_string%>)
+	  <ul>
+		<%
+		var n = 0, slotData = timeList.time_period, slot_len = slotData && slotData.length;
+		for(; n<slot_len; n++) {
+		var slotList = slotData[n];
+		%>
+		<li data-val="<%=slotList.time_string%>,<%=n%>,<%=slotList.left_amount%>"><%=slotList.time_string%><%=slotList.left_amount_string%></li>
+		<%
+		}
+		%>
+	  </ul>
+	</li>
+	<%
+	}
+	%>
+  </ul>
+</template>
+

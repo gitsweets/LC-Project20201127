@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 设置网页meta（默认设置不需要修改，页面需要引用） -->
+  <?php $this->load_template('mobile_iphone/set_meta.php'); ?>
+  <!-- 判断访问设备（可以不引用，根据页面是否用到设备参数配置） -->
+  <?php $this->load_template('mobile_iphone/set_device.php'); ?>
+  <!-- 设置网站统计和主域名（根据需要引用） -->
+  <?php $this->load_template('mobile_iphone/set_config.php'); ?>
+
+</head>
+<body>
+
+<div class="container" id="drugInfo"></div>
+
+<script>
+	var siteUrl = "<?=$C->SITE_URL ?>";
+	var drug_info = <?=$D->good_data?>;
+</script>
+
+</body>
+</html>

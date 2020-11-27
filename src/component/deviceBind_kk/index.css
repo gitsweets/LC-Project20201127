@@ -1,0 +1,23 @@
+/** 重置样式 */
+@import url(../../asset/css/module/reset.css);
+
+/* 字体图标 */
+@import url(../../asset/font/deviceBind/iconfont.css);
+
+/* 公共模块 */
+@import url(../../asset/css/module/media.css);
+@import url(../../asset/css/module/common.css);
+@import url(../../asset/utils/common/bg_color.css);
+@import url(../../asset/utils/button/button.css);
+@import url(../../asset/utils/tips/tips.css);
+@import url(../../asset/utils/form/form.css);
+
+/* 组件样式 */
+@import url(../../asset/css/module/head.css);
+@import url(../../asset/utils/footer/footer_btn/footer_btn01.css);
+
+/* 功能样式 */
+@import url(../../asset/html/deviceBind_kk/deviceBind.css);
+
+
+

@@ -10,5 +10,9 @@
   {
     "name": "订单详情",
     "href": "http://localhost:8091/orderInfo.html"
+  },
+  {
+    "name": "订单详情_检查检验",
+    "href": "http://localhost:8091/orderInfo_Inspection.html"
   }
 ]

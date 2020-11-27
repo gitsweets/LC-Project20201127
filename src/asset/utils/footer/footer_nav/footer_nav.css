@@ -1,0 +1,21 @@
+/* 底部菜单 */
+.f_menu { display: flex; background: #fff; border-top: 1px solid #f1f5f9; height: 2.5rem; text-align: center; }
+.f_menu li { flex: 2; color: #666; font-size: .75rem; }
+.f_m_con { padding: .25rem 0 0; }
+.f_m_icon { font-size: 1.1rem; line-height: 1rem; color: #999fae; }
+.f_m_text { color: #8c8c8c; font-size: .7rem; line-height: 1.2rem; }
+.f_menu li.on .f_m_icon { color: #28c583; }
+/*.f_menu li.on .f_m_text { color: #28c583; }*/
+
+
+
+
+
+
+
+
+
+
+
+
+

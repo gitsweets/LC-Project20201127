@@ -81,7 +81,7 @@ Router.init({
 	animationName : "fade",
 	pageBoxClass	: "page-box",
 	routerMap 		: routes,
-	mode
+	// mode
 });
 // 单个路由注册
 Router.registerRouter("/test", function (transition) {

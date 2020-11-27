@@ -1,0 +1,15 @@
+/* 布局 */
+.n_m92 { padding: 0 4%; width: 92%; }
+.n_m80 { padding: 0 10%; width: 80%; }
+
+/* 导航 */
+.nav_list { display: flex; background: #fff; flex-wrap: wrap; padding: .5rem .2rem; }
+.nav_list li { width: 25%; padding: .2rem 0; }
+.nav_con { width: 70%; padding: 0 15%; text-align: center; }
+.nav_c_img { padding: 0 10%; }
+.nav_c_img img { width: 100%; }
+.nav_c_text { color: #1e2a39; font-size: .7rem; line-height: 1.2rem; text-align: center; }
+
+
+
+

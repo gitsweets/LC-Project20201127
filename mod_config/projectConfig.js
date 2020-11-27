@@ -25,6 +25,12 @@ const config = {
 		uploadPath:'/h5/test/tf/',
 		commonPath: '../mod_common/orderDetails.js',
 	},
+	// 订单信息和提交支付 (成人疫苗)
+	orderDetails_adult :{
+		localPath:'./src/component/orderDetails_adult/',
+		uploadPath:'/h5/test/tf/',
+		commonPath: '../mod_common/orderDetails_adult.js',
+	},
 	// 订单详情
 	orderInfo:{
 		localPath:'./src/component/orderDetails/',
@@ -36,6 +42,42 @@ const config = {
 		localPath:'./src/component/orderDetails/',
 		uploadPath:'/h5/test/tf/',
 		commonPath: '../multi_page_common/multiPage.js',
+	},
+	// 海关预约简化版
+	customsSimp : {
+		localPath:'./src/component/customs_simp/',
+		uploadPath:'/h5/test/tf/',
+		commonPath: '../mod_common/customs_simp.js',
+	},
+	// 康康血压仪设备绑定
+	deviceBind_kk : {
+		localPath:'./src/component/deviceBind_kk/',
+		uploadPath:'/h5/test/tf/',
+		commonPath: '../mod_common/deviceBind_kk.js',
+	},
+	// 二维码展示
+	QRcode : {
+		localPath:'./src/component/QRcode/',
+		uploadPath:'/h5/test/tf/',
+		commonPath: '../mod_common/QRcode.js',
+	},
+	// 产品详情 （活动）
+	productDetails2011 : {
+		localPath:'./src/views/productDetails2011/',
+		uploadPath:'/h5/test/tf/',
+		commonPath: '../mod_common/productDetails2011.js',
+	},
+	// 产品详情 （活动）
+	drugInfo2011 : {
+		localPath:'./src/views/productDetails2011/',
+		uploadPath:'/h5/test/tf/',
+		commonPath: '../mod_common/drugInfo2011.js',
+	},
+	// 药局首页 （20201121）
+	internet_pharmacy : {
+		localPath:'./src/views/InternetPharmacy/',
+		uploadPath:'/h5/test/tf/',
+		commonPath: '../mod_common/InternetPharmacy.js',
 	},
 };
 

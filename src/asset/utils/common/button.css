@@ -1,0 +1,28 @@
+/* 按钮 */
+.btn { width: 100%; height: 2.2rem; line-height: 2.2rem; border-radius: 5px; text-align: center; font-size: .7rem; color: #fff; }
+
+/* 尺寸 */
+.btn_lg { }
+
+.btn_sm { }
+
+.btn_xm { }
+
+/* input按钮 */
+.btn_input { background: none; border: none; }
+.btn_inline { width: 100%; }
+
+
+/** 按钮禁用 */
+.btn[disabled] { cursor: not-allowed; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none; opacity: .65;
+}
+
+
+
+
+
+
+
+
+
+

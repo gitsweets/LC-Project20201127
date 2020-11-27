@@ -1,0 +1,48 @@
+<template>
+  <main>
+    <!-- 登记记录 -->
+    <div class="register_record" >
+      <ul class="ar_list" >
+        <%
+        var i = 0, recordData = data.list,r_len = recordData.length;
+        if(r_len < 1) {
+        %>
+        <li id="no_data">
+          <%=data.notice%>
+        </li>
+        <%
+        } else {
+        for(; i < r_len; i++){
+        var recordInfo = recordData[i];
+        %>
+        <li>
+          <div class="ar_head clearfix">
+            <p class="ar_left"><span>登记人：</span><%=recordInfo.fullname%></p>
+          </div>
+          <div class="ar_con">
+            <p class="ar_con_p"><span>性别：</span><%=recordInfo.gender||''%></p>
+            <p class="ar_con_p"><span>手机号：</span><%=recordInfo.mobile||''%></p>
+            <p class="ar_con_p"><span><%=recordInfo.typeofidcard%>：</span><%=recordInfo.idcard||''%></p>
+            <p class="ar_con_p"><span>出生日期：</span><%=recordInfo.birthday||''%></p>
+          </div>
+          <div class="ar_opt clearfix">
+            <div class="ar_opt_btn fr register_detail" style="display: none"  attr_identifier = "<%=recordInfo.no_charge_booking_service_application%>">
+              查看详情
+            </div>
+            <div class="ar_opt_btn fr register_edit" attr_identifier = "<%=recordInfo.no_charge_booking_service_application%>">
+              编辑
+            </div>
+            <div class="ar_opt_btn fr register_del" attr_identifier = "<%=recordInfo.no_charge_booking_service_application%>" attr_idcard = "<%=recordInfo.idcard%>" >
+              删除
+            </div>
+          </div>
+        </li>
+        <%
+        }}
+        %>
+  
+      </ul>
+    </div>
+    <!-- end -->
+  </main>
+</template>

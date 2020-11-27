@@ -82,27 +82,28 @@
 			data: obj.data || null,
 			headers : obj.headers || null,
 			async: obj.async && true,
-			xhrFields: {
-				// withCredentials: true
-			},
+			// xhrFields: {
+			// 	// withCredentials: true
+			// },
 			jsonpCallback: obj.jsonpCallback || 'jQuery' + ('v1.11.1' + Math.random()).replace(/\D/g,'') + '_' + new Date().getTime(), //服务端用于接收callback调用的function名的参数
 			contentType: obj.contentType || "application/x-www-form-urlencoded; charset=utf-8",
-			beforeSend: function(res){
+			beforeSend: function(XMLHttpRequest){
 				// console.log("beforeSend");
-				if (beforeCallback) {
-					beforeCallback(res);
+				if (obj.beforeSend) {
+					obj.beforeSend(XMLHttpRequest);
 				}
 			},
-			success: function (res) {
+			success: function (data, textStatus, XMLHttpRequest) {
 				// console.log("success");
 				if (callback) {
-					callback(res);
+					callback(data, textStatus, XMLHttpRequest);
+				} else if (obj.success) {
+					obj.success(data, textStatus, XMLHttpRequest);
 				}
 			},
-			complete: function (res) {
-				// console.log("complete");
-				if (completeCallback) {
-					completeCallback(res);
+			complete: function (XMLHttpRequest, textStatus) {
+				if (obj.complete) {
+					obj.complete(XMLHttpRequest, textStatus);
 				}
 			},
 			error: function(XMLHttpRequest,textStatus,errorThrown){
@@ -110,9 +111,10 @@
 				//通常情况下textStatus和errorThrown只有其中一个包含信息
 				// this;    //调用本次ajax请求时传递的options参数
 				// console.log(this);
+
 				console.log(XMLHttpRequest);
-				if (errorCallback) {
-					errorCallback();
+				if (obj.error) {
+					obj.error(XMLHttpRequest,textStatus,errorThrown);
 				}
 			}
 		});

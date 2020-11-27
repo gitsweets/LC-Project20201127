@@ -1,0 +1,19 @@
+{
+  "ResultCode":1,
+  "ResultDescription":"成功",
+  "Result":{
+    "list":[
+      {
+        "no_charge_booking_service_application":"864132932f1ae696beb2a0da8cbf51a2",
+        "fullname":"1",
+        "nationality":"1",
+        "typeofidcard":"身份证",
+        "idcard":"1",
+        "mobile":"",
+        "name_of_unit":"",
+        "gender":"男",
+        "birthday":"2020-07-16"
+      }
+    ]
+  }
+}

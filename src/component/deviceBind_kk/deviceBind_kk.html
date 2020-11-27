@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+  <title>康康血压仪设备绑定</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="#">
+</head>
+<body>
+
+<div class="container" id="deviceBind_kk"></div>
+
+<script>
+    // 定义设备
+	var ios_app = false,
+		android_app = false,
+		is_wx = false;
+	var userId = '1';
+		var siteUrl = "http://m.lk.cn/";
+		var pageTitle = '康康血压仪设备绑定';
+		var isBind = false;
+		// var device_bind = {
+		// 			"bind":{
+		// 				"history":{
+		// 					"name":"查看血压记录",
+		// 					"url":"http://m.lk.cn/settings/pressures/tab:list"
+		// 				},
+		// 				"info":{
+		// 					"type":"A666G",
+		// 					"name":"臂式电子血压计A666G",
+		// 					"imgUrl":"http://www.kang.cn:12345/view-image/deviceType/k-03.png",
+		// 					"imei":"863082030851939",
+		// 					"phone":"1440202903988",
+		// 					"sn":"KB17B029355-787",
+		// 					"validateDate":"2021-08-31",
+		// 					"twoDimensionalCode":"http://we.qq.com/d/AQBT7BO3G-OOkub2FThUtVQ7QsfWLqiR_WlR2Fnf",
+		// 					"cuffType":"标准袖带",
+		// 					"isDynamic":"N"
+		// 				},
+		// 				"notice":{
+		// 					"notice_title":"系统提示",
+		// 					"notice":"解绑后，无法查询新上传的血压信息",
+		// 					"barcode_title":"S/N条码号"
+		// 				},
+		// 				"sn":"KB17B029355-787"
+		// 			},
+		// 			"unbind":[
+        //
+		// 			],
+		// 			"is_bind":true
+		// 		};
+		
+		var device_bind = {
+					"bind":[
+
+					],
+					"unbind":{
+						"notice":{
+							"notice_title":"系统提示",
+							"notice":"请输入设备SN号！设备SN号在血压计的背面！",
+							"barcode_title":"S/N条码号"
+						},
+						"shop_url":{
+							"is_show":false,
+							"url_string":"点击购买设备",
+							"url":""
+						}
+					},
+					"is_bind":false
+				};
+
+</script>
+
+</body>
+</html>

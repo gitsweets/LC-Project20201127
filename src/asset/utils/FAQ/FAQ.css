@@ -11,8 +11,8 @@
 /* FAQ 列表 */
 .faq_list { }
 .faq_list li { padding: .3rem 0; }
-.faq_tit { color: #111; line-height: 1.6rem; font-size: .8rem; padding-bottom:.2rem; }
-.faq_des { color: #333; line-height: 1.2rem; font-size: .7rem; background: #f1f5f8; border-radius: .25rem; padding: .3rem .6rem; }
+.faq_tit { color: #111; line-height: 1.6rem; font-size: .7rem; padding-bottom:.2rem; }
+.faq_des { color: #333; line-height: 1.2rem; font-size: .65rem; background: #f1f5f8; border-radius: .25rem; padding: .3rem .6rem; }
 
 
 

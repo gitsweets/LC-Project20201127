@@ -2,8 +2,356 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee8be22-2b93-41c7-b932-62216bd3f9b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mod_common/InternetPharmacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_common/QRcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_common/customs_simp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_common/deviceBind_kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_common/drugInfo2011.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_common/goodInfo2011.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_common/orderDetails_adult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_common/productDetails2011.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_page_common/orderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_page_common/physical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/record/2020-11-10版开发记录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/InternetPharmacy/互联网药局.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/QRcode/QRcode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/QRcode/QRcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/customs_simp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/customs_simp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/流行病调查.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/温馨提示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/热卖区.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/登记信息.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/登记记录.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/选择国籍.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/预约信息.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/预约记录.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/预约详情.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/首页-热卖区.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/deviceBind_kk/deviceBind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/deviceBind_kk/康康血压仪解绑.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/deviceBind_kk/康康血压仪设备绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/html/drugInfo/loading_img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/images/customs/notice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/images/imag08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list-0.01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/药局猜你喜欢.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/药片列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/appointment_record/appointment_record.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/appointment_record/预约记录.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/button/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/button/按钮.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/column_name/column_name.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/column_name/images/news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/column_name/images/notice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/column_name/栏目名称.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/bg_color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/border_radius-r0.1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/border_radius.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/linear_gradient.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/no_data.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/transparent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/deviceDind/deviceDind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/deviceDind/绑定设备.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/drawer/draw_tip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/drawer/drawer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/drawer/弹出-温馨提示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/footer/footer_nav/footer_nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/footer/footer_nav/药房底部菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/form/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/form/表单提交.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/goods_info/检验项目-同类型商品.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/header/header_search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/header/header_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/nav/nav_otc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/nav/药局菜单导航.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/order_list/order_list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/order_list/订单列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/order_list/订单列表_数量时间.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/prompt/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/prompt/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/prompt/prompt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/select_user/select_user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/select_user/选择预约人.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/tips/tips.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/tips/温馨提示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/utils/tips/温馨提示_基本描述.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/静态文件资源.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/QRcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/QRcode_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/js/QRcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tool/getHtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tool/reqInterfaceData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tool/tplMath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tool/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tpl/QRcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tpl/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tpl/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/QRcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/tool/getHtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/tool/tplList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/tool/模板替换操作顺序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/bak/register_info-001.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/customs_simp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/customs_simp_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/appointment_details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/appointment_info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/appointment_record.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/customs_home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/epidemic_surveying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/getHtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/hot_selling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/register_info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/register_record.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/select_country.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/tpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/tplMath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/mvvm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/appointment_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/appointment_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/appointment_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/appointment_record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/customs_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/epidemic_surveying.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/hot_selling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/register_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/register_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/register_record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/selectService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/selectTime-001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/selectTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/selectUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/select_country.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/开发记录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/待完成.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/访问记录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/deviceBind_kk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/deviceBind_kk_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/js/deviceBind_kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tool/getHtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tool/reqInterfaceData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tool/tplMath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tool/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tpl/add_device.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tpl/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tpl/remove_device.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/访问记录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/bak/tpl-0.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/drugInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/drugInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/drugInfo_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl/drugInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl/selectTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/开发流程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/待完成.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/footer/footer_internet_pharmacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/footer/footer_pd_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/bak/tpl-0.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/drugInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/drugInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/drugInfo_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl/drugInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl/selectTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/开发流程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/待完成.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/header/header_pd_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/orderDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/orderDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/orderDetails_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/orderDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/price.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/selectCoupon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/selectPayType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/待完成.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo/bug记录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/bug记录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/orderDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/orderDetails_inspect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/price.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/default/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/default/orderInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/default/orderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/default/orderInfo_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/inspect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/inspect/orderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/inspect/orderInfo_Inspection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/inspect/orderInfo_Inspection_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/组件.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/appointment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/appointmentDetails.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/appointmentRecord.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/appointmentTime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/countryList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/hotSelling.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/registerInit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/registerRecord.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/timeData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/source/Mobiscroll/mobiscroll_selfstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/source/data/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/source/data/日期插件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/ajax_jq_reform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/getApiReqDomain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/接口请求地址处理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/getApiReqDomain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/getApiReqUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/接口请求地址处理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/checkType/checkType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/checkType/检测数据类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/loadComponent/loadComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/loadComponent/加载组件模块.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/IM/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/IM/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/IM/sendCardMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/getAppVersion/getAppVersion_pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/getAppVersion/获取app版本信息.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrcodeScan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/扫描二维码和条形码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/sendCardMessage/原生发送卡片消息.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/share/app分享方法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/share/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/share/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/share/share.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showRightTextButton/app右上角事件.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showTitleText/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showTitleText/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showTitleText/showTitleText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showTitleText/修改app标题方法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/banner/css/swipe_banner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/banner/index-swipe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/banner/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/banner/js/swipe_banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/js/countDown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/倒计时.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/倒计时.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/整体思路.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/getTpl/getTpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/inputAutoVerify/js/inputAutoVerify_v001.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/router/参考.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/js/tplCompiler-0.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/js/tplCompiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/version/tplCompiler-001.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/tplMath/js/tplMath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendors/tplMath/用于多模板时，统一处理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/InternetPharmacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/InternetPharmacy_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/data/homepage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/demo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/buy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/buy501.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/buy502.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/details200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/details5006.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/details/details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/details/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/details/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/productDetails2011.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/productDetails2011_build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/页面.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod_common/orderDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod_common/orderDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod_config/loaders.build.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod_config/loaders.build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod_config/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod_config/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod_config/projectConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod_config/projectConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_page_config/Navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/multi_page_config/Navigation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_page_config/getEntryObj.js" beforeDir="false" afterPath="$PROJECT_DIR$/multi_page_config/getEntryObj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_page_config/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/multi_page_config/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_page_config/projectConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/multi_page_config/projectConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/css/module/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/module/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/css/module/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/module/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/html/drugInfo/drugInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/html/drugInfo/drugInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/utils/FAQ/FAQ.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/FAQ/FAQ.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/utils/base_info/base_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/base_info/base_info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/utils/goods_info/goods_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/goods_info/goods_info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/utils/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/nav/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/utils/select_list/select_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/select_list/select_list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/drugInfo/drugInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/drugInfo/drugInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/orderDetails/orderDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderDetails/orderDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/orderDetails/tpl/orderDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderDetails/tpl/orderDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/orderInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderInfo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/orderInfo/orderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderInfo/orderInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/orderInfo/orderInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderInfo/orderInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/APP/IM/openIM.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/APP/IM/openIM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/APP/getAppVersion/getAppVersion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/APP/getAppVersion/getAppVersion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/APP/分享/share.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/APP/share/share-001.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/Prices/prices Opt.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/Prices/pricesOpt.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/ajax/js/ajax_jq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/ajax/js/ajax_jq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/drawer/css/drawer_m.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/drawer/css/drawer_m.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/router/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/router/js/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/js/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/router/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/router/js/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/js/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/router/js/router_002.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/js/router_002.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/tools/Type/type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/tools/Type/type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/代码结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开发总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/开发总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目打包命令-多模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/项目打包命令-多模块.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目打包命令-多页面.md" beforeDir="false" afterPath="$PROJECT_DIR$/项目打包命令-多页面.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,109 +365,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/orderInfo/orderInfo.js">
+        <entry file="file://$PROJECT_DIR$/src/asset/utils/common/bg_color.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="352" lean-forward="true" selection-start-line="352" selection-end-line="352" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/orderDetails/orderDetails.js">
+        <entry file="file://$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="895" column="12" lean-forward="true" selection-start-line="895" selection-start-column="12" selection-end-line="895" selection-end-column="12" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/开发总结.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="145">
-                <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_page_common/multiPage.js">
+        <entry file="file://$PROJECT_DIR$/src/asset/utils/OTC_list/药局猜你喜欢.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
-              <folding>
-                <element signature="e#804#2247#0" />
-              </folding>
+            <state relative-caret-position="725">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/代码结构.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="542">
-                <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/asset/utils/form/表单提交.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2088">
+              <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/asset/utils/form/form.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1334">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/asset/utils/header/header_search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list-0.01.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/asset/utils/common/text.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrCode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="116">
-                <caret line="61" selection-start-line="61" selection-end-line="61" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_page_build/webpack.config.dev.js">
+        <entry file="file://$PROJECT_DIR$/src/component/deviceBind_kk/js/deviceBind_kk.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_page_config/getNav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_page_config/Navigation.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_page_config/plugins.dev.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="839">
+              <caret line="353" column="10" lean-forward="true" selection-start-line="353" selection-start-column="10" selection-end-line="353" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -129,44 +459,44 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pf_</find>
-      <find>class=&quot;fr&quot;</find>
-      <find>foot_info</find>
-      <find>/customs</find>
-      <find>.nt</find>
-      <find>../src/images/customs/news.png</find>
-      <find>.skin3</find>
-      <find>pe_status</find>
-      <find>allow_refund</find>
-      <find>npm run dev-init orderDetails</find>
-      <find>scorelist_money</find>
-      <find>relativePath</find>
-      <find>typescript</find>
-      <find>buildTemplate</find>
-      <find>commonConfig.publicPath</find>
-      <find>publicPath</find>
-      <find>buildPublicPath</find>
-      <find>collapseWhitespace</find>
-      <find>buildPath</find>
-      <find>.svg</find>
-      <find>iconfont.svg</find>
-      <find>format('svg')</find>
-      <find>0ab55</find>
-      <find>getEntryObj</find>
-      <find>Project is running</find>
-      <find>getPageHtml</find>
-      <find>openBuild</find>
-      <find>writeFileSync</find>
-      <find>projectConfig</find>
-      <find>devTemplate</find>
+      <find>loadContainer</find>
+      <find>咨询家医</find>
+      <find>医</find>
+      <find>$adviceDoctor</find>
+      <find>adviceDoctorEvent</find>
+      <find>咨询</find>
+      <find>otc_</find>
+      <find>consult_script</find>
+      <find>adviceDoctor</find>
+      <find>搜索</find>
+      <find>input[</find>
+      <find>autocomplete</find>
+      <find>idc_h_promotion radius_8 fr</find>
+      <find>console.log</find>
+      <find>.top_bar</find>
+      <find>htmlPlugin</find>
+      <find>.html</find>
+      <find>otc</find>
+      <find>html</find>
+      <find>removeAttributeQuotes</find>
+      <find>ip_n_img</find>
+      <find>ip_n_text</find>
+      <find>nth-child</find>
+      <find>d</find>
+      <find>idc_drug_list</find>
+      <find>footTpl</find>
+      <find>otc_c_original fl</find>
+      <find>otc_c_tit</find>
+      <find>radius_5</find>
+      <find>qrcodeScan</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -178,6 +508,20 @@
       <replace>f_price</replace>
       <replace>.faq</replace>
       <replace>./images/news.png</replace>
+      <replace>column_name</replace>
+      <replace>select_user</replace>
+      <replace>user</replace>
+      <replace>left, #00a7ff, #0785fd</replace>
+      <replace>radius</replace>
+      <replace>../../images/goodsinfo/good.jpg</replace>
+      <replace>.swipe_banner</replace>
+      <replace>noticeInfo</replace>
+      <replace>od_</replace>
+      <replace>gd_</replace>
+      <replace>nav_c_img</replace>
+      <replace>nav_c_text</replace>
+      <replace>otc_c_original</replace>
+      <replace>radius_r5</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -186,67 +530,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_appointment/立即预约.html" />
-        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_btn/申请退款.html" />
-        <option value="$PROJECT_DIR$/src/asset/utils/footer/立即下载footer.html" />
-        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_otc/药房footer.html" />
-        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_pay/footer_pay.css" />
-        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_pay/订单支付footer.html" />
-        <option value="$PROJECT_DIR$/src/component/orderInfo/index.js" />
-        <option value="$PROJECT_DIR$/src/asset/html/orderInfo/orderInfo.html" />
-        <option value="$PROJECT_DIR$/src/component/orderInfo/tpl/foot.html" />
-        <option value="$PROJECT_DIR$/src/component/orderInfo/index.css" />
-        <option value="$PROJECT_DIR$/src/asset/utils/base_info/base_info.css" />
-        <option value="$PROJECT_DIR$/src/data/orderInfo/applyRefund.json" />
-        <option value="$PROJECT_DIR$/src/component/orderInfo/tpl/orderDetails.html" />
-        <option value="$PROJECT_DIR$/src/component/drugInfo/drugInfo.js" />
-        <option value="$PROJECT_DIR$/src/asset/utils/index.html" />
-        <option value="$PROJECT_DIR$/src/component/orderDetails/tpl/orderDetails.html" />
-        <option value="$PROJECT_DIR$/src/component/orderDetails/orderDetails.html" />
-        <option value="$PROJECT_DIR$/src/asset/utils/menu_list/menu_list.css" />
-        <option value="$PROJECT_DIR$/src/asset/utils/menu_list/菜单列表.html" />
-        <option value="$PROJECT_DIR$/mod_config/plugins.build.js" />
-        <option value="$PROJECT_DIR$/config/common.js" />
-        <option value="$PROJECT_DIR$/mod_build/webpack.config.build.js" />
-        <option value="$PROJECT_DIR$/mod_common/orderInfo.js" />
+        <option value="$PROJECT_DIR$/src/views/productDetails2011/details/details200.json" />
+        <option value="$PROJECT_DIR$/开发总结.md" />
+        <option value="$PROJECT_DIR$/src/component/loadComponent/loadComponent.js" />
+        <option value="$PROJECT_DIR$/src/views/productDetails2011/data/details5006.json" />
+        <option value="$PROJECT_DIR$/record/2020-11-10版开发记录.md" />
+        <option value="$PROJECT_DIR$/src/utils/loadComponent/加载组件模块.md" />
+        <option value="$PROJECT_DIR$/src/utils/apiUrl/apiUrl.js" />
+        <option value="$PROJECT_DIR$/src/utils/apiUrl/getApiDomain.js" />
+        <option value="$PROJECT_DIR$/src/utils/checkType/checkType.js" />
+        <option value="$PROJECT_DIR$/src/utils/apiUrl/index.html" />
+        <option value="$PROJECT_DIR$/src/utils/apiUrl/index.js" />
+        <option value="$PROJECT_DIR$/src/utils/apiUrl/getApiReqUrl.js" />
+        <option value="$PROJECT_DIR$/src/utils/apiUrl/getApiReqDomain.js" />
+        <option value="$PROJECT_DIR$/mod_common/drugInfo2011.js" />
+        <option value="$PROJECT_DIR$/mod_common/productDetails2011.js" />
+        <option value="$PROJECT_DIR$/src/vendors/ajax/js/ajax_jq.js" />
+        <option value="$PROJECT_DIR$/src/utils/ajaxReform/index.html" />
+        <option value="$PROJECT_DIR$/src/utils/ajaxReform/getApiReqDomain.js" />
+        <option value="$PROJECT_DIR$/src/utils/ajaxReform/index.js" />
+        <option value="$PROJECT_DIR$/src/utils/ajaxReform/ajax_jq_reform.js" />
+        <option value="$PROJECT_DIR$/src/views/productDetails2011/index.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/common/linear_gradient.css" />
         <option value="$PROJECT_DIR$/mod_config/projectConfig.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/multi_page_build/build.js" />
-        <option value="$PROJECT_DIR$/multi_page_config/projectConfig.js" />
-        <option value="$PROJECT_DIR$/multi_page_build/dev.js" />
-        <option value="$PROJECT_DIR$/mod_config/loaders.build.js" />
-        <option value="$PROJECT_DIR$/multi_page_config/multiPage.js" />
-        <option value="$PROJECT_DIR$/multi_page_common/multiPage_entry.js" />
-        <option value="$PROJECT_DIR$/multi_page_config/getEntryObj.js" />
-        <option value="$PROJECT_DIR$/multi_page_build/webpack.config.build.js" />
-        <option value="$PROJECT_DIR$/src/component/orderInfo/orderInfo.html" />
-        <option value="$PROJECT_DIR$/multi_page_config/loaders.build.js" />
-        <option value="$PROJECT_DIR$/multi_page_config/loaders.dev.js" />
-        <option value="$PROJECT_DIR$/项目打包命令.md" />
-        <option value="$PROJECT_DIR$/multi_page_config/plugins.build.js" />
-        <option value="$PROJECT_DIR$/项目打包命令-多页面.md" />
         <option value="$PROJECT_DIR$/项目打包命令-多模块.md" />
-        <option value="$PROJECT_DIR$/multi_page_config/getPageHtml.js" />
-        <option value="$PROJECT_DIR$/mod_build/mod_build.js" />
-        <option value="$PROJECT_DIR$/mod_build/webpack.config.dev.js" />
-        <option value="$PROJECT_DIR$/multi_page_common/multiPage.js" />
-        <option value="$PROJECT_DIR$/multi_page_config/getNav.js" />
-        <option value="$PROJECT_DIR$/multi_page_build/webpack.config.dev.js" />
-        <option value="$PROJECT_DIR$/multi_page_config/plugins.dev.js" />
-        <option value="$PROJECT_DIR$/src/component/orderInfo/orderInfo.js" />
-        <option value="$PROJECT_DIR$/src/component/orderDetails/orderDetails.js" />
-        <option value="$PROJECT_DIR$/代码结构.md" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/views/InternetPharmacy/index.js" />
+        <option value="$PROJECT_DIR$/src/views/InternetPharmacy/data/homepage.json" />
+        <option value="$PROJECT_DIR$/src/views/productDetails2011/details/details.js" />
+        <option value="$PROJECT_DIR$/src/component/footer/footer_internet_pharmacy.html" />
+        <option value="$PROJECT_DIR$/src/views/InternetPharmacy/InternetPharmacy.html" />
+        <option value="$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.js" />
+        <option value="$PROJECT_DIR$/src/views/InternetPharmacy/InternetPharmacy_build.html" />
+        <option value="$PROJECT_DIR$/mod_common/InternetPharmacy.js" />
+        <option value="$PROJECT_DIR$/src/asset/utils/common/border_radius.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/common/border_radius-0.1.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/common/border_radius-r0.1.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/form/表单提交.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/header/header_search.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/header/header_search.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/nav/nav_otc.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/nav/药局菜单导航.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_nav/footer_nav.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/footer/footer_nav/药房底部菜单.html" />
+        <option value="$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/common/bg_color.css" />
+        <option value="$PROJECT_DIR$/src/views/InternetPharmacy/index.css" />
+        <option value="$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.html" />
+        <option value="$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/OTC_list/药片列表.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list-0.01.css" />
+        <option value="$PROJECT_DIR$/src/asset/utils/OTC_list/药局猜你喜欢.html" />
+        <option value="$PROJECT_DIR$/src/asset/utils/form/form.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -258,6 +603,32 @@
             <path>
               <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+              <item name="APP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+              <item name="APP" type="462c0819:PsiDirectoryNode" />
+              <item name="qrcodeScan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,18 +647,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Demo\LC-Project" />
-      <recent name="E:\Demo\LC-Project\multi_page_common" />
-      <recent name="E:\Demo\LC-Project\multi_page_config" />
-      <recent name="E:\Demo\LC-Project\multi_page_build" />
-      <recent name="E:\Demo\LC-Project\src\data\orderInfo" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\OTC_list" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\footer" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\nav" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\common" />
+      <recent name="E:\Demo\LC-Project\src\asset\utils\header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Demo\LC-Project\src\asset\utils\footer\footer_otc" />
-      <recent name="E:\Demo\LC-Project\src\asset\utils\footer\download_foot" />
-      <recent name="E:\Demo\LC-Project\src\asset\utils\footer\footer_btn" />
-      <recent name="E:\Demo\LC-Project\src\asset\utils\footer\footer_appointment" />
-      <recent name="E:\Demo\LC-Project\src\asset\utils\select_visits" />
+      <recent name="E:\Demo\LC-Project\src\utils" />
+      <recent name="E:\Demo\LC-Project\src\views\productDetails2011\data" />
+      <recent name="E:\Demo\LC-Project\src\component" />
+      <recent name="E:\Demo\LC-Project\src\asset\html\drugInfo" />
+      <recent name="E:\Demo\LC-Project\src\views\productDetails2011\footer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,22 +714,82 @@
       <workItem from="1591349064283" duration="822000" />
       <workItem from="1591605266531" duration="87787000" />
       <workItem from="1592270056295" duration="84977000" />
-      <workItem from="1592787720761" duration="54959000" />
+      <workItem from="1592787720761" duration="56441000" />
+      <workItem from="1593484487799" duration="5738000" />
+      <workItem from="1593998127710" duration="17200000" />
+      <workItem from="1594105672374" duration="183226000" />
+      <workItem from="1595207597412" duration="28771000" />
+      <workItem from="1595309306640" duration="624000" />
+      <workItem from="1595317831637" duration="8872000" />
+      <workItem from="1595473257740" duration="88000" />
+      <workItem from="1595484903296" duration="43000" />
+      <workItem from="1595554825104" duration="4665000" />
+      <workItem from="1595576904298" duration="4778000" />
+      <workItem from="1595832807944" duration="3490000" />
+      <workItem from="1595922812431" duration="9069000" />
+      <workItem from="1596075708716" duration="6520000" />
+      <workItem from="1596094784563" duration="3205000" />
+      <workItem from="1596158318093" duration="2893000" />
+      <workItem from="1596162534303" duration="29000" />
+      <workItem from="1596181242206" duration="9904000" />
+      <workItem from="1596508355373" duration="14939000" />
+      <workItem from="1596618431720" duration="6458000" />
+      <workItem from="1596692028478" duration="2082000" />
+      <workItem from="1596852407760" duration="84000" />
+      <workItem from="1596862373237" duration="3000" />
+      <workItem from="1597039156206" duration="1229000" />
+      <workItem from="1597388158586" duration="1765000" />
+      <workItem from="1597391175531" duration="1713000" />
+      <workItem from="1597394247402" duration="1981000" />
+      <workItem from="1597642085504" duration="87000" />
+      <workItem from="1597643136235" duration="2969000" />
+      <workItem from="1597720706300" duration="4616000" />
+      <workItem from="1597740712633" duration="661000" />
+      <workItem from="1597905206114" duration="2322000" />
+      <workItem from="1598404857535" duration="5665000" />
+      <workItem from="1598577186084" duration="6176000" />
+      <workItem from="1598599240544" duration="67820000" />
+      <workItem from="1599357975609" duration="663000" />
+      <workItem from="1599441990479" duration="4832000" />
+      <workItem from="1599530721284" duration="883000" />
+      <workItem from="1599532487357" duration="23634000" />
+      <workItem from="1599649257992" duration="1366000" />
+      <workItem from="1599724207416" duration="749000" />
+      <workItem from="1599729581820" duration="2167000" />
+      <workItem from="1600046518479" duration="15248000" />
+      <workItem from="1600218673416" duration="28632000" />
+      <workItem from="1600397861332" duration="2460000" />
+      <workItem from="1600408743227" duration="7350000" />
+      <workItem from="1600849667178" duration="4931000" />
+      <workItem from="1601044217230" duration="37670000" />
+      <workItem from="1601457683155" duration="416000" />
+      <workItem from="1602467789252" duration="27053000" />
+      <workItem from="1603074082100" duration="3182000" />
+      <workItem from="1603423776814" duration="608000" />
+      <workItem from="1603852071540" duration="9721000" />
+      <workItem from="1604652122143" duration="64177000" />
+      <workItem from="1605159229717" duration="35230000" />
+      <workItem from="1605591898303" duration="1858000" />
+      <workItem from="1605678642123" duration="26000" />
+      <workItem from="1605679045798" duration="3133000" />
+      <workItem from="1605862212531" duration="67711000" />
+      <workItem from="1606356250150" duration="1759000" />
+      <workItem from="1606438420281" duration="705000" />
+      <workItem from="1606440003404" duration="1005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301542000" />
+    <option name="totallyTimeSpent" value="1059878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20560254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -367,7 +798,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925472" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,452 +808,381 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multi_page_common/multiPage_entry.js">
+    <entry file="file://$PROJECT_DIR$/src/component/goodInfo/drugInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/orderInfo/orderInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod_common/goodsInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod_common/orderInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1947">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/html/mobile_iphone/orderform_pe_detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="833" selection-start-column="833" selection-end-column="833" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/html/mobile_iphone/otc_detail_pe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/SVN/branches/xli/2020/商城体检/themes/simplicity/css/orderDetails/page.437ec466.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret column="50215" selection-start-column="50215" selection-end-column="50215" />
+        <state relative-caret-position="548">
+          <caret line="23" column="2390" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="2390" />
           <folding>
-            <element signature="e#30230#35216#1" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderDetails.d586b615.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
-          <folding>
-            <element signature="e#16346#25537#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderInfo.eeda27af.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="e#10353#11717#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderDetails.05e938e5.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#10353#11717#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/orderInfo/page.4f0b6abd.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/js/orderInfo/manifest.70279cf7.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/js/orderInfo/page.74a0e83d.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/drugInfo.65d930b3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod_common/drugInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod_config/loaders.build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/js/multiPage/drugInfo.bb966e5c.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/asset/font/common/iconfont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/drugInfo.e52fb452.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret column="28355" lean-forward="true" selection-start-column="28355" selection-end-column="28355" />
-          <folding>
-            <element signature="e#935#3314#2" expanded="true" />
-            <element signature="e#3319#5704#1" expanded="true" />
-            <element signature="e#5733#6663#1" expanded="true" />
-            <element signature="e#6680#8047#1" expanded="true" />
-            <element signature="e#8063#10197#1" expanded="true" />
-            <element signature="e#10217#11581#1" expanded="true" />
-            <element signature="e#11808#16055#2" expanded="true" />
-            <element signature="e#16060#20313#1" expanded="true" />
-            <element signature="e#20342#22544#1" expanded="true" />
-            <element signature="e#22561#25388#1" expanded="true" />
-            <element signature="e#29426#45006#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderInfo.6cb6fe4b.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret column="8495" lean-forward="true" selection-start-column="8495" selection-end-column="8495" />
-          <folding>
-            <element signature="e#935#3314#2" expanded="true" />
-            <element signature="e#3319#5704#1" expanded="true" />
-            <element signature="e#5733#6663#1" expanded="true" />
-            <element signature="e#6680#8047#1" expanded="true" />
-            <element signature="e#10217#11581#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderDetails.91e91634.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret column="1272" selection-start-column="1272" selection-end-column="1272" />
-          <folding>
-            <element signature="e#3319#5704#1" expanded="true" />
-            <element signature="e#5733#6663#1" expanded="true" />
-            <element signature="e#6680#8047#1" expanded="true" />
-            <element signature="e#8063#10197#1" expanded="true" />
-            <element signature="e#10217#11581#1" expanded="true" />
-            <element signature="e#15023#24214#2" expanded="true" />
-            <element signature="e#24219#33416#1" expanded="true" />
-            <element signature="e#33445#38431#1" expanded="true" />
-            <element signature="e#38448#44439#1" expanded="true" />
-            <element signature="e#44455#53401#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/orderDetails.718515f8.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret column="8544" lean-forward="true" selection-start-column="8544" selection-end-column="8544" />
-          <folding>
-            <element signature="e#935#3314#2" expanded="true" />
-            <element signature="e#3319#5704#1" expanded="true" />
-            <element signature="e#5733#6663#1" expanded="true" />
-            <element signature="e#6680#8047#1" expanded="true" />
-            <element signature="e#10217#11205#1" expanded="true" />
-            <element signature="e#14647#23838#2" expanded="true" />
-            <element signature="e#23843#33040#1" expanded="true" />
-            <element signature="e#33069#38055#1" expanded="true" />
-            <element signature="e#38072#44063#1" expanded="true" />
-            <element signature="e#44079#53025#1" expanded="true" />
-            <element signature="e#53045#85713#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/drugInfo.78c6d664.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret column="11217" selection-start-column="11214" selection-end-column="11217" />
-          <folding>
-            <element signature="e#935#3314#2" expanded="true" />
-            <element signature="e#3319#5704#1" expanded="true" />
-            <element signature="e#5733#6663#1" expanded="true" />
-            <element signature="e#6680#8047#1" expanded="true" />
-            <element signature="e#8063#10197#1" expanded="true" />
-            <element signature="e#10217#11205#1" expanded="true" />
-            <element signature="e#11432#15679#2" expanded="true" />
-            <element signature="e#15684#19937#1" expanded="true" />
-            <element signature="e#19966#22168#1" expanded="true" />
-            <element signature="e#22185#25012#1" expanded="true" />
-            <element signature="e#25028#29030#1" expanded="true" />
-            <element signature="e#29050#40698#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_config/loaders.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/css/multiPage/drugInfo.053b52cf.css">
+    <entry file="file://$PROJECT_DIR$/src/component/goodInfo/drugInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret column="29088" selection-start-column="29083" selection-end-column="29088" />
-          <folding>
-            <element signature="e#935#3314#2" expanded="true" />
-            <element signature="e#3319#5704#1" expanded="true" />
-            <element signature="e#5733#6663#1" expanded="true" />
-            <element signature="e#6680#8047#1" expanded="true" />
-            <element signature="e#8063#10197#1" expanded="true" />
-            <element signature="e#10217#11205#1" expanded="true" />
-            <element signature="e#11432#15679#2" expanded="true" />
-            <element signature="e#15684#19937#1" expanded="true" />
-            <element signature="e#19966#22168#1" expanded="true" />
-            <element signature="e#22185#25012#1" expanded="true" />
-            <element signature="e#25028#29030#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_config/loaders.build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_build/webpack.config.build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_config/plugins.build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目打包命令-多页面.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="174">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod_build/mod_build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod_build/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_config/getEntryObj.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目打包命令-多模块.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="542">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_config/getPageHtml.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod_common/orderDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_build/dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_build/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_config/Navigation.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_config/getNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_build/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_config/plugins.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/orderInfo/orderInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="352" lean-forward="true" selection-start-line="352" selection-end-line="352" />
+          <caret line="224" column="46" selection-start-line="224" selection-start-column="32" selection-end-line="224" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1419#4026#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/orderDetails/orderDetails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="895" column="12" lean-forward="true" selection-start-line="895" selection-start-column="12" selection-end-line="895" selection-end-column="12" />
+        <state relative-caret-position="1108">
+          <caret line="243" column="30" lean-forward="true" selection-start-line="243" selection-start-column="30" selection-end-line="243" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/footer/footer_internet_pharmacy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/drug/药品列表-外卖功能.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/drug/drug_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/productDetails2011/productDetails2011.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/productDetails2011/details/details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="86" selection-start-line="86" selection-end-line="86" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1563#1705#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目打包命令-多模块.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="551">
+            <caret line="52" selection-start-line="52" selection-end-line="52" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/js/InternetPharmacy/page.02cb44ca.js" />
+    <entry file="file://$PROJECT_DIR$/mod_config/loaders.build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-931" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_page_common/multiPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="202" column="2" selection-start-line="202" selection-start-column="2" selection-end-line="202" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/InternetPharmacy/InternetPharmacy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/InternetPharmacy/InternetPharmacy_build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/html/mobile_iphone/otc_znyfs-drug-malls-f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="3" column="535" lean-forward="true" selection-start-line="3" selection-start-column="535" selection-end-line="3" selection-end-column="535" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_common/InternetPharmacy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="102" column="31" lean-forward="true" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_config/plugins.build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1576">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/css/page/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/common/border_radius.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/common/border_radius-r0.1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/nav/nav.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/nav/导航.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/nav/nav_otc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/header/header_search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/footer/footer_nav/footer_nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/footer/footer_otc/药房footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/nav/药局菜单导航.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/footer/footer_nav/药房底部菜单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="226" column="9" lean-forward="true" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/开发总结.md">
+    <entry file="file://$PROJECT_DIR$/src/asset/html/goodsInfo/goodsInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/html/deviceBind_kk/deviceBind.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/html/deviceBind_kk/康康血压仪设备绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/html/InternetPharmacy/互联网药局.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="145">
-            <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/themes/simplicity/html/mobile_iphone/orderform_pe.php">
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/OTC_list/药片列表-首页.html" />
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/OTC_list/药片列表.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret column="809" selection-start-column="809" selection-end-column="809" />
+        <state relative-caret-position="319">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi_page_common/multiPage.js">
+    <entry file="file://$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
+        <state relative-caret-position="899">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
           <folding>
-            <element signature="e#804#2247#0" />
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码结构.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="542">
-            <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#5;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#6;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#6;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#6;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#6;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="116">
-            <caret line="61" selection-start-line="61" selection-end-line="61" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/views/InternetPharmacy/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/common/bg_color.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/OTC_list/药局猜你喜欢.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/form/表单提交.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2088">
+          <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/form/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/header/header_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list-0.01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asset/utils/common/text.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/deviceBind_kk/js/deviceBind_kk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="353" column="10" lean-forward="true" selection-start-line="353" selection-start-column="10" selection-end-line="353" selection-end-column="10" />
         </state>
       </provider>
     </entry>

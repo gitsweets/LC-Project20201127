@@ -1,0 +1,49 @@
+.swipe_banner {
+    background: #fff;
+}
+.swipe_banner .addWrap {
+    position: relative;
+    background: #fff;
+    margin: 0;
+    min-height: 100px;
+}
+.swipe_banner .addWrap .swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+}
+.swipe_banner .addWrap .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.swipe_banner .addWrap .swipe-wrap>div {
+    float: left;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.swipe_banner #position {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+.swipe_banner #position li {
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #AFAFAF;
+}
+.swipe_banner #position li.cur {
+    background-color: #FF0000;
+}
+.swipe_banner .img-responsive {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

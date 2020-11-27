@@ -1,0 +1,57 @@
+.customs { background: #f1f5f7; min-height: 100%; }
+
+.banner { }
+.banner img { width: 100%; display: block; }
+
+.service_img {}
+.service_img img { width: 100%; display: block; }
+
+.declaration { width: 92%; padding: .5rem 4%; background: #fff; }
+.declaration .tit { font-size: .8rem; line-height: 1.8rem; color: #000; }
+.declaration .des { font-size: 0.65rem; line-height: 1rem; color: #666; }
+
+.related_sign { font-size: .7rem; color: #0688fd; padding-bottom: .5rem; }
+
+.customs_nav { padding-bottom: .5rem; background: #f1f5f8; }
+.m_b { margin-bottom: .5rem; }
+
+/* 栏目 */
+.column { padding: 0 4% .5rem; width: 92%; background: #fff; }
+
+/* 预约 */
+.appointment { background: #fff; padding: 0 4% .8rem; }
+.appointment .group { border-bottom: 1px #eee solid; padding: .3rem 0; }
+/* 登记 */
+.register { background: #fff; padding: 0 4% .8rem; }
+
+.bgf1f5f8 { background: #f1f5f8; }
+.column.bgf1f5f8 .column_name { background: #f1f5f8; }
+
+/* 国家列表 */
+.dw_page .dw_head { display: none; }
+.dw_page .drawer_out { top: 0; display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+.dw_page .dw_search { height: 3.5rem; }
+.dw_page .dw_body { flex: 1; width: 100%; height: 100%; max-height: none;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box; }
+
+/* 预约详情流调标识 */
+.a_mark { }
+.a_mark .bf_con .bf_item span.fr { color: #f00; }
+.a_mark .bf_con .bf_item i { color: #f00; }
+.a_mark .bf_con .bf_con_p { color: #f00; }
+
+/* 倒计时 */
+.count_down { padding: 5px 4%; line-height: 24px; font-size: .7rem; color: #f00; }
+
+
+
+
+

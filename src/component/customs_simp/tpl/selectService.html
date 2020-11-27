@@ -1,0 +1,37 @@
+<template>
+  <div class="drawer" data-v="<%=data.hash%>" style="display: block" >
+	<div class="drawer_mask <%=data.maskClass+'-'+data.hash%>" style="opacity: <%=data.opacity%>; z-index: <%=data.z_index%>;" ></div>
+	<div class="drawer_out">
+	  <div class="dw_head dw_m92">
+		<div class="fl">
+		  <a href="javascript:;" class="cancel <%=data.cancelBtn+'-'+data.hash%>"><%=data.cancelTxt%></a>
+		</div>
+		<div class="fr" style="display: none">
+		  <a href="javascript:;" class="confirm <%=data.sureBtn+'-'+data.hash%>"><%=data.sureTxt%></a>
+		</div>
+		<div class="dw_h_name"><%=data.title%></div>
+	  </div>
+	  <div class="dw_body dw_m92" style="<%=data.height && ('height:' + data.height)%>;">
+		<ul class="select_user">
+		  <%
+		  var i, serviceData = data.data;
+		  if(!serviceData) {
+		  %>
+		  <li class="">
+			<div class="no_data"><%=data.noData%></div>
+		  </li>
+		  <% } else {
+		  for(i in serviceData){
+		  var detail = serviceData[i];
+		  %>
+		  <li class="clearfix" attr_id="<%=detail.id%>" attr_service="<%=detail.key_context_Chinese%>">
+			<div class="fl " style="display: none"><span class="iconfont iconxuanzhong s_select"></span></div>
+			<div class="s_user_data fl"><%=detail.key_context_Chinese%></div>
+		  </li>
+		  <% } } %>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</template>
+

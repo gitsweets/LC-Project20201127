@@ -161,12 +161,16 @@
 		bindHashWindowEvent : function () {
 			var _this = this;
 			// 初始化跳转方法
-			window.linkTo = function(path) {
+			window.linkTo = function(path, flag) {
 				console.log('path :', path);
 				if (path.indexOf("?") !== -1) {
 					window.location.hash = path + '&key=' + util.genKey()
 				} else {
 					window.location.hash = path + '?key=' + util.genKey()
+				}
+				// 判断是ios
+				if (ios_app) {
+					history.pushState(null,null,location.href);
 				}
 			};
 

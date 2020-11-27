@@ -1,0 +1,183 @@
+<template>
+  <main>
+    <div class="order_detail">
+      <%
+      var orderInfo = data.order_data,
+      takingWay = data.is_drugpackage,
+      payData = data.pay_data,
+      appointmentData = data.pre_data;
+      console.log(appointmentInfo);
+      %>
+      <!-- 取药方式 -->
+      <%
+      if(takingWay) {
+      %>
+      <div class="taking_goods m_b" style="display: block">
+        <div class="tg_way">
+          <ul class="tg_list fr">
+            <li data-id="6">
+              <div class="fl "><span class="iconfont iconiconfontxuanzhong4 s_select"></span></div>
+              <div class="tg_tit">自取</div>
+            </li>
+            <li data-id="7">
+              <div class="fl "><span class="iconfont iconxuanzhong s_select"></span></div>
+              <div class="tg_tit">邮寄</div>
+            </li>
+          </ul>
+          <div class="tg_des">请选择取药方式：</div>
+        </div>
+        <div class="tg_addr">
+          <div class="addr_info">
+            <div class="fr"><span class="iconfont iconyoujiantou "></span></div>
+            <div class="addr_con">
+              <p>收货人：王美丽<span>13958642568</span></p>
+              <p>收货地址：辽宁省沈阳市和平区25号天斗大厦201室辽宁省沈阳市和平区25号天斗大厦201室</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <%
+      }
+      %>
+      <!-- 预约信息 -->
+      <%
+      var m = 0, appointment_len = appointmentData.length;
+      for(; m < appointment_len; m++) {
+      var appointmentInfo = appointmentData[m];
+      %>
+      <div class="base_info m_b" >
+        <div class="bf_name">预约信息</div>
+        <div class="bf_con">
+          <div class="bf_item">
+            <span class="fr"><%=appointmentInfo.name%></span>
+            预约姓名：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=appointmentInfo.pre_mobile%></span>
+            预约手机号：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=appointmentInfo.pre_cardno%></span>
+            身份证号：
+          </div>
+          <div class="bf_item skin1">
+            <em>预约单位：</em>
+            <i><%=appointmentInfo.clinic_name%></i>
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=appointmentInfo.pre_time%></span>
+            预约日期：
+          </div>
+        </div>
+      </div>
+      <%
+      }
+      %>
+      
+      <!-- 订单信息 -->
+      <div class="order_info m_b">
+        <div class="of_name">订单信息</div>
+        <div class="of_con">
+          <%
+          var n = 0, goodData = orderInfo.goods, good_len = goodData.length;
+          for(; n < good_len; n++){
+          var goodInfo = goodData[n];
+          %>
+          <div class="of_item clearfix">
+            <span class="fr"><em>￥</em><%= parseFloat(goodInfo.goods_price) * parseFloat(goodInfo.goods_num) %></span>
+            <%=goodInfo.goods_name%>
+          </div>
+          <%
+          }
+          %>
+          <%
+          // 判断是否是否显示运费
+          if(false) {
+          %>
+          <div class="of_item clearfix" id="fare">
+            <span class="fr"><em>￥</em><%=orderInfo.delivery_fee%></span>
+            运费
+          </div>
+          <% } %>
+        </div>
+        <!-- 优惠券 -->
+        <%
+        // 判断是否是否可以使用优惠卷
+        if(false) {
+        %>
+        <div class="of_coupon clearfix" id="of_coupon">
+          优惠券
+          <div class="of_cou_state fr">
+            <i id="state_text">已选<%=orderInfo.count_coupondetail_have_been_used%>张，省￥<%=orderInfo.coupon_discount%></i>
+            <span class="iconfont iconyoujiantou fr"></span>
+          </div>
+        </div>
+        <% } %>
+        <div class="of_total">
+          <span class="fr"><em>￥</em><i id="total_amount"><%=orderInfo.amount%></i></span>
+          总计费用
+        </div>
+      </div>
+      <!-- 蓝卡积分 -->
+      <%
+      // 判断是否是否可以使用积分
+      if(orderInfo.is_jf) {
+      %>
+      <div class="integral_use m_b">
+        <!-- 积分余额 -->
+        <div class="ig_balance clearfix">
+          <div class="ig_recharge fr" id="ig_recharge" >充值</div>
+          <div class="ig_val fr"><%=orderInfo.scoreamount%></div>
+          <div class="ig_name"><span class="iconfont iconjine01 fl"></span>蓝卡账户余额</div>
+        </div>
+        <!-- 积分操作 -->
+        <%
+        if(orderInfo.scorelist_money == 0) {
+          isUse = "display: block;";
+          isCancel = "display: none;";
+        } else {
+          isUse = "display: none;";
+          isCancel = "display: block;";
+        }
+        %>
+        <div class="ig_opt clearfix" style="<%=isUse%>">
+          <div class="ig_user fr" id="ig_user">使用</div>
+          <div class="ig_count fr" id="ig_count">
+            <span class="add iconfont iconjia1 fr"></span>
+            <input class="text_change fr" type="text" value="<%=parseFloat(orderInfo.showscore).toFixed(2)%>" >
+            <span class="cut iconfont iconjian fr"></span>
+          </div>
+          <div class="ig_des">请用加减钮调整金额数</div>
+        </div>
+        
+        <div class="ig_opt clearfix" style="<%=isCancel%>">
+          <div class="ig_user fr" id="ig_cancel">取消</div>
+          <div class="ig_state">
+            已使用金额：<span><%=orderInfo.scorelist_money%></span>
+          </div>
+        </div>
+        
+        <!-- end -->
+      </div>
+      <% } %>
+      <!-- FORM 提交 -->
+      <div class="pay_form" >
+        <form action="/pay" method="post" id="paying_form" >
+          <!-- 签名 -->
+          <input type="hidden" id="signature" name="signature" value="<%=payData.signature||''%>"/>
+          <!-- 订单id -->
+          <input type="hidden" id="orderid" name="orderid"  value="<%=payData.orderid||''%>"/>
+          <!-- 订单号 -->
+          <input type="hidden" id="orderno" name="orderno" value="<%=payData.orderno||''%>"/>
+          <!-- Android版本-->
+          <input type="hidden" id="android_version" name="android_app_version" value="0"/>
+          <!-- app包名-->
+          <input type="hidden" id="app_name" name="app_name" value=""/>
+          <!-- 支付方式 -->
+          <input type="hidden" id="pay_type" name="payingtype" value="alipay">
+        </form>
+      </div>
+      <!-- end -->
+    </div>
+  </main>
+</template>

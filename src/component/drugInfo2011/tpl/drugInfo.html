@@ -1,0 +1,67 @@
+<template>
+  <main>
+    <div class="drug_detail">
+      <%
+      var baseInfo = data.base_info,
+      slideImgData = baseInfo.image_list, img_len = slideImgData && slideImgData.length,
+      drugInfoData = baseInfo.good_info,
+      drugDetailData = data.detail_info;
+      %>
+      <!-- 药品信息 -->
+      <div class="drug_info">
+        <%
+        if(img_len > 0) {
+        %>
+        <!-- 药品图片切换 -->
+        <div class="d_slide">
+          <%
+          var m = 0;
+          for(; m < img_len; m++){
+          var slideImg = slideImgData[m];
+          %>
+          <img src="<%=slideImg%>" >
+          <%
+          }
+          %>
+        </div>
+        <%
+        }
+        %>
+        <!--药品名称-->
+        <div class="d_info m94">
+          <div class="d_tit"><%=drugInfoData.goods_name%></div>
+          <div class="d_price">
+            <!--会员价-->
+            <%
+            if(drugInfoData.price_member) {
+            %>
+            <div class="d_real"><em>¥</em><span><%=drugInfoData.price_member.val%></span>元</div>
+            <%
+            }
+            if(drugInfoData.price) {
+            %>
+            <!--商城价-->
+            <div class="d_original"><em>¥</em><span><%=drugInfoData.price.val%></span>元</div>
+            <%
+            }
+            %>
+          </div>
+          <div class="d_promotion">规格：已经比市场价优惠76.00元。</div>
+          <div class="d_promotion">说明：已经比市场价优惠76.00元。</div>
+        </div>
+
+        <!--end-->
+      </div>
+      <!-- 商品介绍 -->
+      <div class="d_introduce">
+        <div class="di_name">
+          商品介绍
+        </div>
+        <div class="di_con">
+          <%=drugDetailData%>
+        </div>
+      </div>
+      <!--end-->
+    </div>
+  </main>
+</template>

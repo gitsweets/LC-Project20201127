@@ -1,0 +1,38 @@
+<template>
+  <ul class="f_menu">
+    <%
+    var l = 0, len = data.length;
+    for(; l < len; l++){
+    var navInfo = data[l];
+    <!--debugger-->
+    if(l==0) {
+    %>
+    <li class="on" >
+      <div class="f_m_con">
+        <span class="iconfont <%=navInfo.icon%> f_m_icon"></span>
+        <div class="f_m_text"><%=navInfo.title%></div>
+      </div>
+    </li>
+    <%
+    } else if(l==3) {
+    %>
+    <li  onclick="<%=navInfo.link%>" >
+      <div class="f_m_con">
+        <span class="iconfont <%=navInfo.icon%> f_m_icon"></span>
+        <div class="f_m_text"><%=navInfo.title%></div>
+      </div>
+    </li>
+    <%
+    } else {
+    %>
+    <li  onclick="javascript:window.location.href='<%=navInfo.link%>'" >
+      <div class="f_m_con">
+        <span class="iconfont <%=navInfo.icon%> f_m_icon"></span>
+        <div class="f_m_text"><%=navInfo.title%></div>
+      </div>
+    </li>
+    <%
+    }}
+    %>
+  </ul>
+</template>

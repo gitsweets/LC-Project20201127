@@ -1,0 +1,20 @@
+/** 重置样式 */
+@import url(../../asset/css/module/reset.css);
+
+/* 字体图标 */
+/*@import url(../../asset/font/common/iconfont.css);*/
+@import url(../../asset/font/InternetPharmacy/iconfont.css);
+
+
+/** 模块样式 */
+@import url(../../asset/css/module/media.css);
+@import url(../../asset/css/module/common.css);
+@import url(../../asset/css/module/layout.css);
+@import url(../../asset/utils/common/bg_color.css);
+
+/* 组件样式 */
+@import url(../../vendors/Quantity/quantityOpt.css);
+@import url(../../asset/css/module/head.css);
+
+/* 功能样式 */
+@import url(../../asset/html/InternetPharmacy/InternetPharmacy.css);

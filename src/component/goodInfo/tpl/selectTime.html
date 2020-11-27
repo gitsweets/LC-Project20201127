@@ -1,0 +1,43 @@
+<template>
+  <div class="drawer" data-v="<%=data.hash%>" style="display: block" >
+	<div class="drawer_mask <%=data.maskClass+'-'+data.hash%>" style="opacity: <%=data.opacity%>; z-index: <%=data.z_index%>;" ></div>
+	<div class="drawer_out">
+	  <div class="dw_head dw_m92">
+		<div class="fl">
+		  <a href="javascript:;" class="cancel <%=data.cancelBtn+'-'+data.hash%>"><%=data.cancelTxt%></a>
+		</div>
+		<div class="fr" style="display: none">
+		  <a href="javascript:;" class="confirm <%=data.sureBtn+'-'+data.hash%>"><%=data.sureTxt%></a>
+		</div>
+		<div class="dw_h_name"><%=data.title%></div>
+	  </div>
+	  <div class="dw_body dw_m92" style="height: <%=data.height%>;">
+		<ul class="select_time">
+		  <%
+		  var i = 0, len = data.data.length;
+		  if(!data.data) {
+		  %>
+		  <li class="">
+			<div class="no_data"><%=data.noData%></div>
+		  </li>
+		  <% } else {
+		  for(; i < len; i++){
+		  var detail = data.data[i];
+		  %>
+		  <li class="clearfix" attr_time="<%=detail.pre_time%>" attr_allow="<%=detail.is_allow%>">
+			<div class="s_time_data fl"><%=detail.show_time%>（<%=detail.pre_week%>）</div>
+			<%
+			if(detail.is_allow) {
+			%>
+			<div class="s_operable fr"><%=detail.allow_str%></div>
+			<% } else { %>
+			<div class="s_inoperable fr"><%=detail.allow_str%></div>
+			<% } %>
+		  </li>
+		  <% } } %>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</template>
+

@@ -18,6 +18,7 @@ var footer = require('./tpl/foot.html');
 var container = require('./tpl/orderDetails.html');
 
 ;(function(root, factory) {
+	console.log(1);
 	if (typeof define === "function" && define.amd) {
 		define(factory);
 	} else if (typeof exports === "object") {

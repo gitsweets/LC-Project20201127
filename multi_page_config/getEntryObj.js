@@ -6,7 +6,13 @@ var getEntryObj = function (multiPage, path) {
 	// console.log(multiPage);
 	var i = 0, len = multiPage.length, obj = {};
 	for (; i < len; i++) {
-		obj[multiPage[i].name] = path + 'component/' + multiPage[i].path + 'index.js';
+		// 判断多页面配置是同目录还是不同目录
+		if (multiPage[i].isRelative) {
+			obj[multiPage[i].name] = path + 'component/' + multiPage[i].path;
+		} else {
+			obj[multiPage[i].name] = path + 'component/' + multiPage[i].path + 'index.js';
+		}
+
 	}
 	// console.log(obj);
 	return obj;

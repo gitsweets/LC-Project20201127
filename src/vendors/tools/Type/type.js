@@ -68,3 +68,14 @@ var isJqObject = function (obj) {
 		return true;
 	}
 };
+
+/**
+ * 判断是dom元素
+ * @param obj
+ * @returns {boolean}
+ */
+var isDomObject = function (obj) {
+	if (obj instanceof HTMLElement){
+		return true;
+	}
+};

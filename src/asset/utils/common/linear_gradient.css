@@ -1,0 +1,24 @@
+/* 颜色渐变 */
+.gradient { }
+/* 从右向左 */
+.gradient_left {
+    background: -webkit-linear-gradient(left, #0785fd, #00a7ff);
+    background: -o-linear-gradient(left, #0785fd, #00a7ff);
+    background: -moz-linear-gradient(left, #0785fd, #00a7ff);
+    background: -mos-linear-gradient(left, #0785fd, #00a7ff);
+    background: linear-gradient(left, #0785fd, #00a7ff);
+}
+
+/* 从左向右 */
+.gradient_right {
+    background: -webkit-linear-gradient(right, #0785fd, #00a7ff);
+    background: -o-linear-gradient(right, #0785fd, #00a7ff);
+    background: -moz-linear-gradient(right, #0785fd, #00a7ff);
+    background: -mos-linear-gradient(right, #0785fd, #00a7ff);
+    background: linear-gradient(right, #0785fd, #00a7ff);
+}
+
+
+
+
+

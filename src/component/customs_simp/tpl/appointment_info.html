@@ -1,0 +1,45 @@
+<template>
+  <main>
+    <%
+    if(data.is_exist_registration_rights) {
+    %>
+    <div class="count_down"><%=data.is_exist_registration_rights_notice%></div>
+    <% } %>
+    <div class="appointment">
+      <%
+      var applicationInfo = data.application_info_view;
+      %>
+      <!-- 登记人 -->
+      <div class="group" id="apt_user">
+        <span class="gp_tit">预约人</span>
+        <div class="gp_drawer fr">
+          <input type="hidden" id="apt_user_dummy" value="<%=applicationInfo.fullname%>" class="input_control" placeholder="请选择预约人" >
+          <span class="gp_dw_con"><%=applicationInfo.fullname ||'请选择预约人' %></span>
+          <span class="iconfont iconyoujiantou gp_dw_icon"></span>
+        </div>
+        
+      </div>
+      <!-- 预约项目 -->
+      <div class="group" id="apt_service" >
+        <span class="gp_tit">预约项目</span>
+        <div class="gp_drawer fr">
+          <input type="hidden" id="apt_service_dummy" value="" class="input_control" placeholder="请选择预约项目" >
+          <span class="gp_dw_con">请选择预约项目</span>
+          <span class="iconfont iconyoujiantou gp_dw_icon"></span>
+        </div>
+      </div>
+      <!-- 预约时间 -->
+      <div class="group" >
+        <span class="gp_tit">预约时间</span>
+        <div class="gp_input fr" id="apt_time">
+          <input type="text" id="apt_time_input" name="" value="" class="input_control" placeholder="请选择预约时间" autocomplete="off" >
+        </div>
+        <div class="gp_drawer fr" style="display: none;">
+          <span class="gp_dw_con">请选择预约时间</span>
+          <span class="iconfont iconyoujiantou gp_dw_icon"></span>
+        </div>
+      </div>
+      <!-- end -->
+    </div>
+  </main>
+</template>

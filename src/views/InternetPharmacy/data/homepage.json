@@ -1,0 +1,596 @@
+{
+  "res": 1,
+  "data": {
+    "banner": [
+      {
+        "link": "",
+        "img": "https://img.lancare.cc/i/adverts/1545215454542.png"
+      }
+    ],
+    "category": [
+      {
+        "id": "1",
+        "title": "内科",
+        "img": "http://www.lk.me/themes/simplicity/images/",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113/cate_id:1"
+      },
+      {
+        "id": "2",
+        "title": "外科",
+        "img": "http://www.lk.me/themes/simplicity/images/",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113/cate_id:2"
+      },
+      {
+        "id": "3",
+        "title": "妇科",
+        "img": "http://www.lk.me/themes/simplicity/images/",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113/cate_id:3"
+      },
+      {
+        "id": "4",
+        "title": "皮肤科",
+        "img": "http://www.lk.me/themes/simplicity/images/",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113/cate_id:4"
+      },
+      {
+        "id": "1517",
+        "title": "慢性病",
+        "img": "http://www.lk.me/themes/simplicity/images/",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113/cate_id:1517"
+      },
+      {
+        "id": "1518",
+        "title": "儿童用药",
+        "img": "http://www.lk.me/themes/simplicity/images/",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113/cate_id:1518"
+      },
+      {
+        "id": "7812",
+        "title": "五官科",
+        "img": "http://www.lk.me/themes/simplicity/images/",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113/cate_id:7812"
+      },
+      {
+        "id": "7813",
+        "title": "传染科",
+        "img": "http://www.lk.me/themes/simplicity/images/",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113/cate_id:7813"
+      }
+    ],
+    "list": [
+      {
+        "title": "内科用药",
+        "headerbg": "",
+        "recommend": [
+
+        ],
+        "activity": {
+          "content": "",
+          "color": ""
+        },
+        "goods": [
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿莫西林克拉维酸钾分散片(7:1)",
+            "price": "21.50",
+            "priceOrigin": "21.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1516778635423778.png",
+            "link": "http://www.lk.me/otc/detail/gid:278793"
+          },
+          {
+            "name": "阿莫西林克拉维酸钾分散片(7:1)",
+            "price": "21.50",
+            "priceOrigin": "21.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1516778635423778.png",
+            "link": "http://www.lk.me/otc/detail/gid:278793"
+          }
+        ]
+      },
+      {
+        "title": "外科用药",
+        "headerbg": "",
+        "recommend": [
+
+        ],
+        "activity": {
+          "content": "",
+          "color": ""
+        },
+        "goods": [
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿莫西林克拉维酸钾分散片(7:1)",
+            "price": "21.50",
+            "priceOrigin": "21.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1516778635423778.png",
+            "link": "http://www.lk.me/otc/detail/gid:278793"
+          },
+          {
+            "name": "西洛他唑片",
+            "price": "51.71",
+            "priceOrigin": "51.71",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504232477470092.png",
+            "link": "http://www.lk.me/otc/detail/gid:278965"
+          },
+          {
+            "name": "布洛芬片",
+            "price": "12.97",
+            "priceOrigin": "12.97",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504590835382770.png",
+            "link": "http://www.lk.me/otc/detail/gid:278806"
+          },
+          {
+            "name": "胆石利通片",
+            "price": "23.60",
+            "priceOrigin": "23.60",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1503972826285729.png",
+            "link": "http://www.lk.me/otc/detail/gid:278812"
+          },
+          {
+            "name": "马来酸噻吗洛尔滴眼液",
+            "price": "10.97",
+            "priceOrigin": "10.97",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1506474106779303.png",
+            "link": "http://www.lk.me/otc/detail/gid:278874"
+          },
+          {
+            "name": "乳癖消片8",
+            "price": "15.50",
+            "priceOrigin": "15.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1527665418557137.png",
+            "link": "http://www.lk.me/otc/detail/gid:981796"
+          },
+          {
+            "name": "颈舒颗粒",
+            "price": "36.80",
+            "priceOrigin": "36.80",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1501741583758401.png",
+            "link": "http://www.lk.me/otc/detail/gid:278850"
+          }
+        ]
+      },
+      {
+        "title": "妇科用药",
+        "headerbg": "",
+        "recommend": [
+
+        ],
+        "activity": {
+          "content": "",
+          "color": ""
+        },
+        "goods": [
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿莫西林克拉维酸钾分散片(7:1)",
+            "price": "21.50",
+            "priceOrigin": "21.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1516778635423778.png",
+            "link": "http://www.lk.me/otc/detail/gid:278793"
+          },
+          {
+            "name": "复合维生素片1",
+            "price": "84.87",
+            "priceOrigin": "84.87",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1501737542883036.png",
+            "link": "http://www.lk.me/otc/detail/gid:279012"
+          },
+          {
+            "name": "复合维生素片1",
+            "price": "84.87",
+            "priceOrigin": "84.87",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1501737542883036.png",
+            "link": "http://www.lk.me/otc/detail/gid:279012"
+          },
+          {
+            "name": "妇科千金片",
+            "price": "15.80",
+            "priceOrigin": "15.80",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1503985873156736.png",
+            "link": "http://www.lk.me/otc/detail/gid:278825"
+          },
+          {
+            "name": "桂枝茯苓胶囊",
+            "price": "51.80",
+            "priceOrigin": "51.80",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504079438959015.png",
+            "link": "http://www.lk.me/otc/detail/gid:278838"
+          },
+          {
+            "name": "桂枝茯苓胶囊",
+            "price": "51.80",
+            "priceOrigin": "51.80",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504079438959015.png",
+            "link": "http://www.lk.me/otc/detail/gid:278838"
+          },
+          {
+            "name": "克霉唑阴道片",
+            "price": "42.00",
+            "priceOrigin": "42.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1503990748471724.png",
+            "link": "http://www.lk.me/otc/detail/gid:278854"
+          }
+        ]
+      },
+      {
+        "title": "皮肤科用药",
+        "headerbg": "",
+        "recommend": [
+
+        ],
+        "activity": {
+          "content": "",
+          "color": ""
+        },
+        "goods": [
+          {
+            "name": "硅霜",
+            "price": "55.00",
+            "priceOrigin": "55.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1500536266410110.png",
+            "link": "http://www.lk.me/otc/detail/gid:279010"
+          },
+          {
+            "name": "硅霜",
+            "price": "55.00",
+            "priceOrigin": "55.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1500536266410110.png",
+            "link": "http://www.lk.me/otc/detail/gid:279010"
+          },
+          {
+            "name": "硅霜",
+            "price": "55.00",
+            "priceOrigin": "55.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1500536266410110.png",
+            "link": "http://www.lk.me/otc/detail/gid:279010"
+          },
+          {
+            "name": "肤乐霜",
+            "price": "48.00",
+            "priceOrigin": "48.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1500535634131067.png",
+            "link": "http://www.lk.me/otc/detail/gid:279011"
+          },
+          {
+            "name": "肤乐霜",
+            "price": "48.00",
+            "priceOrigin": "48.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1500535634131067.png",
+            "link": "http://www.lk.me/otc/detail/gid:279011"
+          },
+          {
+            "name": "莫匹罗星软膏",
+            "price": "12.20",
+            "priceOrigin": "12.20",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504234870637141.png",
+            "link": "http://www.lk.me/otc/detail/gid:278882"
+          },
+          {
+            "name": "润燥止痒胶囊",
+            "price": "19.49",
+            "priceOrigin": "19.49",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504508170191578.png",
+            "link": "http://www.lk.me/otc/detail/gid:278909"
+          },
+          {
+            "name": "润燥止痒胶囊",
+            "price": "19.49",
+            "priceOrigin": "19.49",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504508170191578.png",
+            "link": "http://www.lk.me/otc/detail/gid:278909"
+          }
+        ]
+      },
+      {
+        "title": "慢性病用药",
+        "headerbg": "",
+        "recommend": [
+
+        ],
+        "activity": {
+          "content": "",
+          "color": ""
+        },
+        "goods": [
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿莫西林克拉维酸钾分散片(7:1)",
+            "price": "21.50",
+            "priceOrigin": "21.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1516778635423778.png",
+            "link": "http://www.lk.me/otc/detail/gid:278793"
+          },
+          {
+            "name": "单硝酸异山梨酯分散片",
+            "price": "39.36",
+            "priceOrigin": "39.36",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504683465470646.png",
+            "link": "http://www.lk.me/otc/detail/gid:278811"
+          },
+          {
+            "name": "尿毒清颗粒",
+            "price": "64.24",
+            "priceOrigin": "64.24",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1502852644521816.png",
+            "link": "http://www.lk.me/otc/detail/gid:279001"
+          },
+          {
+            "name": "布洛芬片",
+            "price": "12.97",
+            "priceOrigin": "12.97",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504590835382770.png",
+            "link": "http://www.lk.me/otc/detail/gid:278806"
+          },
+          {
+            "name": "阿托伐他汀钙片",
+            "price": "55.50",
+            "priceOrigin": "55.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504232960915428.png",
+            "link": "http://www.lk.me/otc/detail/gid:278797"
+          },
+          {
+            "name": "阿托伐他汀钙片",
+            "price": "55.50",
+            "priceOrigin": "55.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504232960915428.png",
+            "link": "http://www.lk.me/otc/detail/gid:278797"
+          },
+          {
+            "name": "硝苯地平控释片",
+            "price": "27.00",
+            "priceOrigin": "27.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504503524213632.png",
+            "link": "http://www.lk.me/otc/detail/gid:278932"
+          }
+        ]
+      },
+      {
+        "title": "儿童用药用药",
+        "headerbg": "",
+        "recommend": [
+
+        ],
+        "activity": {
+          "content": "",
+          "color": ""
+        },
+        "goods": [
+          {
+            "name": "维生素AD滴剂（0-1岁）",
+            "price": "14.00",
+            "priceOrigin": "14.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1522633719279379.png",
+            "link": "http://www.lk.me/otc/detail/gid:281057"
+          },
+          {
+            "name": "维生素AD滴剂（0-1岁）",
+            "price": "14.00",
+            "priceOrigin": "14.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1522633719279379.png",
+            "link": "http://www.lk.me/otc/detail/gid:281057"
+          },
+          {
+            "name": "维生素AD滴剂（0-1岁）",
+            "price": "14.00",
+            "priceOrigin": "14.00",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1522633719279379.png",
+            "link": "http://www.lk.me/otc/detail/gid:281057"
+          },
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿奇霉素分散片",
+            "price": "14.64",
+            "priceOrigin": "14.64",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1504578454321064.png",
+            "link": "http://www.lk.me/otc/detail/gid:278794"
+          },
+          {
+            "name": "阿莫西林克拉维酸钾分散片(7:1)",
+            "price": "21.50",
+            "priceOrigin": "21.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1516778635423778.png",
+            "link": "http://www.lk.me/otc/detail/gid:278793"
+          },
+          {
+            "name": "阿莫西林克拉维酸钾分散片(7:1)",
+            "price": "21.50",
+            "priceOrigin": "21.50",
+            "discount": "",
+            "tag": "rx",
+            "img": "http://static.lk.me/i/goods/1516778635423778.png",
+            "link": "http://www.lk.me/otc/detail/gid:278793"
+          }
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "icon": "icon-index",
+        "title": "首页",
+        "link": "http://www.lk.me/otc/znyfs_drug_malls/shop:113"
+      },
+      {
+        "icon": "icon-leimupinleifenleileibie",
+        "title": "分类",
+        "link": "http://www.lk.me/otc/znyf-cate-new/shop:113"
+      },
+      {
+        "icon": "icon-gouwuche",
+        "title": "购物车",
+        "link": "http://www.lk.me/otc/favor_list"
+      },
+      {
+        "icon": "icon-zixun",
+        "title": "寻医问药",
+        "link": "http://www.lk.me/"
+      }
+    ]
+  },
+  "msg": ""
+}

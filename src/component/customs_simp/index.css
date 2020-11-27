@@ -1,0 +1,41 @@
+/** 重置样式 */
+@import url(../../asset/css/module/reset.css);
+
+/* 字体图标 */
+@import url(../../asset/font/common/iconfont.css);
+@import url(../../asset/font/customs/iconfont.css);
+
+/* 公共模块 */
+@import url(../../asset/css/module/media.css);
+@import url(../../asset/css/module/common.css);
+@import url(../../asset/css/module/layout.css);
+@import url(../../asset/utils/common/text.css);
+@import url(../../asset/utils/common/no_data.css);
+@import url(../../asset/utils/button/button.css);
+
+/** 模块样式 */
+@import url(../../asset/utils/nav/nav.css);
+@import url(../../asset/utils/FAQ/FAQ.css);
+@import url(../../asset/utils/column_name/column_name.css);
+@import url(../../asset/utils/form/form.css);
+@import url(../../asset/utils/appointment_record/appointment_record.css);
+@import url(../../asset/utils/base_info/base_info.css);
+@import url(../../asset/utils/select_user/select_user.css);
+@import url(../../asset/utils/tips/tips.css);
+@import url(../../asset/utils/drawer/draw_tip.css);
+@import url(../../asset/utils/OTC_list/otc_list.css);
+@import url(../../asset/utils/select_list/select_list.css);
+
+/* 组件样式 */
+@import url(../../asset/css/module/head.css);
+@import url(../../asset/utils/footer/footer_btn/footer_btn01.css);
+
+@import url(../../vendors/drawer/css/drawer_m.css);
+@import url(../../vendors/banner/css/swipe_banner.css);
+
+/* 功能样式 */
+@import url(../../asset/html/customs_simp/customs_simp.css);
+
+
+
+

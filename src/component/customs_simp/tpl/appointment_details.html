@@ -1,0 +1,59 @@
+<template>
+  <main>
+    <div class="appointment_details" >
+      <%
+      var feedbackInfo = data.feedback_info,
+      registerInfo = data.register_info,
+      is_mark = data.is_mark,
+      applicationInfo = data.application_info;
+      if(is_mark == 1) {
+        var markClass = "a_mark";
+      }
+      %>
+      <!-- 预约信息 -->
+      <div class="base_info m_b <%=markClass%>" >
+        <div class="bf_name">预约信息</div>
+        <div class="bf_con">
+          <div class="bf_item">
+            <span class="fr"><%=registerInfo.name%></span>
+            预约人：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=registerInfo.registration_time%></span>
+            预约时间：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=registerInfo.phone%></span>
+            预约手机号：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=registerInfo.sale_item%></span>
+            预约项目：
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=registerInfo.registration_organization_name%></span>
+            预约机构：
+          </div>
+          <div class="bf_item skin1">
+            <em>预约地点：</em>
+            <i><%=registerInfo.registration_organization_address%></i>
+          </div>
+          <div class="bf_item">
+            <span class="fr"><%=registerInfo.registration_status%></span>
+            预约状态：
+          </div>
+        </div>
+      </div>
+      <!-- 预约回执 -->
+      <div class="base_info m_b  <%=markClass%>" >
+        <div class="bf_name">预约回执</div>
+        <div class="bf_con">
+          <p class="bf_con_p">
+            <%=feedbackInfo%>
+          </p>
+        </div>
+      </div>
+      <!-- end -->
+    </div>
+  </main>
+</template>

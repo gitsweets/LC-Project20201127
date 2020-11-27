@@ -138,6 +138,7 @@
 			if (!obj.routerMap.length) {
 				this.getRouterMap(obj.routerViewId, obj);
 			}
+
 			// 注册路由
 			this.registerMapRouter(obj);
 			console.log(obj.routers);
@@ -148,12 +149,16 @@
 		bindWindowEvent : function () {
 			var _this = this;
 			// 初始化跳转方法
-			window.linkTo = function(path) {
+			window.linkTo = function(path, param) {
 				console.log('path :', path);
 				if (path.indexOf("?") !== -1) {
-					window.location.hash = path + '&key=' + util.genKey()
+					window.location.hash = param ? path + '&' + param : path;
 				} else {
-					window.location.hash = path + '?key=' + util.genKey()
+					window.location.hash = param ? path + '?' + param : path;
+				}
+				// 判断是ios
+				if (ios_app) {
+					history.pushState(null,null,location.href);
 				}
 			};
 
@@ -174,6 +179,7 @@
 			var currentHash = util.getParamsUrl();		// 获取当前地址hash
 			var nameStr = "router-" + (obj.routerViewId) + "-history";		// 拼接sessionStorage的key
 			console.log(currentHash, nameStr);
+
 			// 获取历史记录
 			this.getHistory(obj, nameStr);
 			// console.log(this.opts.history);
@@ -225,10 +231,11 @@
 			// 获取当前hash对应的路径和视图
 			var curHashObj = this.getHashAndView(currentHash, obj);
 			// console.log(curHashObj);
+			// debugger
 			// 判断当前hash视图是否存在
 			if (!curHashObj.currentPage){
-				obj.routers[currentHash.path].callback ? obj.routers[currentHash.path].callback(currentHash) : null;
-				return;
+				obj.routers[currentHash.path].callback ? obj.routers[currentHash.path].callback(currentHash, obj.routers[currentHash.path]['hashName']) : null;
+				// return;
 			}
 			// 根据历史记录标记切换对应视图和动画
 			this.gotoViewAnimation(obj, curHashObj, currentHash);
@@ -262,7 +269,9 @@
 						util.removeClass(prevPage, obj.curPageClass);
 					}
 					// 当前视图添加CLASS
-					util.addClass(curHashObj.currentPage, obj.curPageClass);
+					if (curHashObj.currentPage) {
+						util.addClass(curHashObj.currentPage, obj.curPageClass);
+					}
 				}, 250);
 			} else if (obj.historyFlag === 'forward' || obj.historyFlag === 'refresh') {
 				// console.log("刷新和前进！");
@@ -285,7 +294,7 @@
 				if (curHashObj.currentPage) {
 					curHashObj.currentPage.scrollTop = 0;
 				}
-				obj.routers[curHashObj.currHash].callback ? obj.routers[curHashObj.currHash].callback(currentHash) : null;
+				obj.routers[curHashObj.currHash] && (obj.routers[curHashObj.currHash].callback ? obj.routers[curHashObj.currHash].callback(currentHash) : null);
 			}
 		},
 		// 获取当前hash对应的路径和视图
@@ -347,6 +356,7 @@
 				var item = {
 					key: currentHash.query.key,
 					hash: currentHash.path,
+					hashName: '',
 					query: currentHash.query
 				};
 				obj.history.push(item);
@@ -367,7 +377,7 @@
 					obj.redirectRoute = obj.routerMap[0].path;
 				}
 				// 注册单层路由
-				this.registerRouter(router.path, router.callback);
+				this.registerRouter(router.path, router.callback, router.name);
 				// var newPath = router.path;
 				// var path = newPath.replace(/\s*/g, ""); //过滤空格
 				// obj.routers[path] = {
@@ -377,12 +387,15 @@
 			// console.log(obj.routers);
 		},
 		// 单层路由注册
-		registerRouter : function (path, callback) {
+		registerRouter : function (path, callback, hashName) {
+			// debugger
 			var path = path.replace(/\s*/g, ""); //过滤空格
 			// 判断回调函数存在，并且是函数
 			if(callback && Object.prototype.toString.call(callback) === '[object Function]'){
-				this.opts.routers[path] ={
+				// debugger
+				this.opts.routers[path] = {
 					callback : callback,		//回调
+					hashName : hashName,
 					fn : null 							//存储异步文件状态
 				}
 			}else{

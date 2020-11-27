@@ -1,0 +1,183 @@
+<template>
+  <%
+  var bannerData = data.banner, img_len = bannerData && bannerData.length,
+  categoryData = data.category,
+  druglistData = data.list,
+  drugDetailData = data.detail;
+  <!--console.log(bannerData);-->
+  %>
+  <div class=" m92 internet_pharmacy" >
+    <!-- 搜索 -->
+    <div class="">
+    
+    </div>
+    <!-- banner -->
+    <div class="ip_banner m_b">
+      <%
+      var m = 0;
+      for(; m < 1; m++){
+      var bannerInfo = bannerData[m];
+      %>
+      <a href="<%=bannerInfo.link%>" >
+        <img src="<%=bannerInfo.img%>">
+      </a>
+      <%
+      }
+      %>
+    </div>
+  
+    <!-- 科室菜单 -->
+    <div class="m_b ">
+      <ul class="ip_nav radius_8">
+        <%
+        var n = 0, cg_len = categoryData && categoryData.length;
+        for(; n < cg_len; n++){
+        var categoryInfo = categoryData[n];
+        %>
+        <li onclick="javascript:window.location.href='<%=categoryInfo.link%>'">
+          <div class="ip_n_con">
+            <div class="ip_n_img"><img src="<%=categoryInfo.img%>"></div>
+            <div class="ip_n_text"><%=categoryInfo.title%></div>
+          </div>
+        </li>
+        <%
+        }
+        %>
+      </ul>
+    </div>
+  
+    <!-- 内科用药 -->
+    <div class="ip_drug_category">
+      <%
+      var k = 0, dl_len = druglistData && druglistData.length;
+      if(dl_len > 4) {
+        <!--dl_len = 4;-->
+      }
+      <!--console.log(dl_len);-->
+      for(; k < dl_len; k++){
+      var druglist = druglistData[k];
+      var num = (k+1)%4;
+      %>
+      <!-- 类别名称 -->
+      <!--<div class="idc_head radius_8 <%=druglist.headerbg%> clearfix">-->
+      <div class="idc_head radius_8 cg_<%=num%> clearfix">
+        <div class="idc_h_name fl"><%=druglist.title%></div>
+        <ul class="idc_h_main fl">
+          <%
+          var j = 0, recommendData = druglist.recommend, rc_len = recommendData && recommendData.length;
+          if(rc_len > 2) {
+           rc_len = 2;
+          }
+          for(; j < rc_len; j++){
+          var recommendInfo = recommendData[j];
+          <!--console.log(recommendInfo);-->
+          %>
+          <li><a href="<%=recommendInfo.link%>" ><%=recommendInfo.name%></a></li>
+          <%
+          }
+          %>
+        </ul>
+        <%
+        var activityInfo = druglist.activity;
+        if(JSON.stringify(activityInfo) !== "{}") {
+        %>
+        <div class="idc_h_promotion radius_8 fr"><a href="<%=activityInfo.link%>" ><%=activityInfo.content%></a></div>
+        <%
+        }
+        %>
+      </div>
+      <!-- 药品列表 -->
+      <div class="idc_body  m_b">
+        <%
+        var i = 0, goodsData = druglist.goods, g_len = goodsData && goodsData.length, st1_len = Math.ceil(g_len/2);
+        %>
+        <ul class="idc_drug_list">
+          <%
+          for(; i < st1_len; i++){
+          var goodsInfo = goodsData[i];
+          var _price = goodsInfo.price;
+          <!--debugger-->
+          var real_decimal = _price.substr(_price.indexOf('.'));
+          var real_int = _price.substr(0, _price.indexOf('.'));
+          %>
+          <li  onclick="javascript:window.location.href='<%=goodsInfo.link%>'">
+            <div class="idl_con radius_5">
+              <!-- 药品图片 -->
+              <div class="idl_c_img"><img src="<%=goodsInfo.img%>"></div>
+              <!-- 药品名称 -->
+              <div class="idl_c_tit"><%=goodsInfo.name%></div>
+              <!-- 药品价格 -->
+              <div class="idl_c_price clearfix">
+                <div class="idl_c_real fl"><em>¥</em><span><%=real_int%><em><%=real_decimal%></em></span></div>
+                <div class="idl_c_original fl"><em>¥</em><span><%=goodsInfo.priceOrigin%></span></div>
+              </div>
+              <!-- 药品类别 -->
+              <%
+              if(goodsInfo.tag == 'rx') {
+              %>
+              <div class="idl_c_tag tag_rx"></div>
+              <%
+              } else if(goodsInfo.tag == 'otc') {
+              %>
+              <div class="idl_c_tag tag_otc"></div>
+              <%
+              }
+              %>
+              <!-- end -->
+            </div>
+          </li>
+          <%
+          }
+          %>
+        </ul>
+        <ul class="idc_drug_list">
+          <%
+          var d = st1_len;
+          for(; d < g_len; d++){
+          var goodsInfo = goodsData[d];
+          var _price = goodsInfo.price;
+          console.log(goodsInfo);
+          <!--debugger-->
+          var real_decimal = _price.substr(_price.indexOf('.'));
+          var real_int = _price.substr(0, _price.indexOf('.'));
+          %>
+          <li  onclick="javascript:window.location.href='<%=goodsInfo.link%>'">
+            <div class="idl_con radius_5">
+              <!-- 药品图片 -->
+              <div class="idl_c_img"><img src="<%=goodsInfo.img%>"></div>
+              <!-- 药品名称 -->
+              <div class="idl_c_tit"><%=goodsInfo.name%></div>
+              <!-- 药品价格 -->
+              <div class="idl_c_price clearfix">
+                <div class="idl_c_real fl"><em>¥</em><span><%=real_int%><em><%=real_decimal%></em></span></div>
+                <div class="idl_c_original fl"><em>¥</em><span><%=goodsInfo.priceOrigin%></span></div>
+              </div>
+              <!-- 药品类别 -->
+              <%
+              if(goodsInfo.tag == 'rx') {
+              %>
+              <div class="idl_c_tag tag_rx"></div>
+              <%
+              } else if(goodsInfo.tag == 'otc') {
+              %>
+              <div class="idl_c_tag tag_otc"></div>
+              <%
+              }
+              %>
+              <!-- end -->
+            </div>
+          </li>
+          <%
+          }
+          %>
+        </ul>
+      </div>
+      <!-- end -->
+      <%
+      }
+      %>
+    </div>
+    
+    <!--end-->
+  </div>
+</template>

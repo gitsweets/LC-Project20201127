@@ -1,0 +1,11 @@
+body {  background: #f1f5f7; min-height: 100%; }
+.device_bind { padding: 1rem 3%; width: 94%; }
+.db_form { padding-top: 1rem; }
+.db_form .group { padding: .3rem 3%; }
+.db_form .group .gp_w { width: 11.6rem; }
+
+.db_btn { margin-top: 2rem; }
+.db_link { text-align: center; margin-top: 1rem; }
+.db_link a { color: #f00; line-height: 1rem; }
+
+.gp_scan_code { width: 12rem; }
