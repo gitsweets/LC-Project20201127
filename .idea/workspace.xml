@@ -2,356 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee8be22-2b93-41c7-b932-62216bd3f9b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod_common/InternetPharmacy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_common/QRcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_common/customs_simp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_common/deviceBind_kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_common/drugInfo2011.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_common/goodInfo2011.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_common/orderDetails_adult.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_common/productDetails2011.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi_page_common/orderInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi_page_common/physical.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/record/2020-11-10版开发记录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/InternetPharmacy/互联网药局.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/QRcode/QRcode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/QRcode/QRcode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/customs_simp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/customs_simp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/流行病调查.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/温馨提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/热卖区.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/登记信息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/登记记录.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/选择国籍.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/预约信息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/预约记录.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/预约详情.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/首页-热卖区.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/customs_simp/首页.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/deviceBind_kk/deviceBind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/deviceBind_kk/康康血压仪解绑.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/deviceBind_kk/康康血压仪设备绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/html/drugInfo/loading_img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/customs/notice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/images/imag08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list-0.01.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/药局猜你喜欢.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/OTC_list/药片列表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/appointment_record/appointment_record.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/appointment_record/预约记录.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/button/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/button/按钮.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/column_name/column_name.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/column_name/images/news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/column_name/images/notice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/column_name/栏目名称.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/bg_color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/border_radius-r0.1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/border_radius.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/linear_gradient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/no_data.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/common/transparent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/deviceDind/deviceDind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/deviceDind/绑定设备.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/drawer/draw_tip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/drawer/drawer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/drawer/弹出-温馨提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/footer/footer_nav/footer_nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/footer/footer_nav/药房底部菜单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/form/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/form/表单提交.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/goods_info/检验项目-同类型商品.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/header/header_search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/header/header_search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/nav/nav_otc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/nav/药局菜单导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/order_list/order_list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/order_list/订单列表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/order_list/订单列表_数量时间.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/prompt/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/prompt/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/prompt/prompt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/select_user/select_user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/select_user/选择预约人.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/tips/tips.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/tips/温馨提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/utils/tips/温馨提示_基本描述.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/静态文件资源.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/QRcode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/QRcode_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/js/QRcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/js/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tool/getHtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tool/reqInterfaceData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tool/tplMath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tool/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tpl/QRcode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tpl/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/tpl/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/QRcode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/tool/getHtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/tool/tplList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/QRcode/views/tool/模板替换操作顺序.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/bak/register_info-001.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/customs_simp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/customs_simp_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/appointment_details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/appointment_info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/appointment_record.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/customs_home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/epidemic_surveying.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/getHtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/hot_selling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/register_info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/register_record.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/select_country.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/tpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/tplMath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/js/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/mvvm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/appointment_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/appointment_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/appointment_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/appointment_record.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/customs_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/epidemic_surveying.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/hot_selling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/register_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/register_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/register_record.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/selectService.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/selectTime-001.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/selectTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/selectUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/tpl/select_country.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/开发记录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/待完成.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/customs_simp/访问记录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/deviceBind_kk.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/deviceBind_kk_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/js/deviceBind_kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tool/getHtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tool/reqInterfaceData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tool/tplMath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tool/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tpl/add_device.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tpl/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/tpl/remove_device.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/deviceBind_kk/访问记录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/bak/tpl-0.0.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/drugInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/drugInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/drugInfo_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl/drugInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/tpl/selectTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/开发流程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/drugInfo2011/待完成.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/footer/footer_internet_pharmacy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/footer/footer_pd_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/bak/tpl-0.0.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/drugInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/drugInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/drugInfo_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl/drugInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/tpl/selectTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/开发流程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/goodInfo/待完成.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/header/header_pd_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/orderDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/orderDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/orderDetails_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/orderDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/price.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/selectCoupon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/tpl/selectPayType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderDetails_adult/待完成.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo/bug记录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/bug记录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/orderDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/orderDetails_inspect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/tpl/price.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/default/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/default/orderInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/default/orderInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/default/orderInfo_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/inspect/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/inspect/orderInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/inspect/orderInfo_Inspection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orderInfo_Inspection/view/inspect/orderInfo_Inspection_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/组件.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/appointment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/appointmentDetails.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/appointmentRecord.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/appointmentTime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/countryList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/hotSelling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/registerInit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/registerRecord.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customs_simp/timeData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/Mobiscroll/mobiscroll_selfstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/data/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/data/日期插件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/ajax_jq_reform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/getApiReqDomain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ajaxReform/接口请求地址处理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/getApiReqDomain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/getApiReqUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/apiParam/接口请求地址处理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/checkType/checkType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/checkType/检测数据类型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/loadComponent/loadComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/loadComponent/加载组件模块.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/IM/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/IM/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/IM/sendCardMessage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/getAppVersion/getAppVersion_pay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/getAppVersion/获取app版本信息.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrcodeScan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/扫描二维码和条形码.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/sendCardMessage/原生发送卡片消息.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/share/app分享方法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/share/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/share/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/share/share.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showRightTextButton/app右上角事件.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showTitleText/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showTitleText/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showTitleText/showTitleText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/APP/showTitleText/修改app标题方法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/banner/css/swipe_banner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/banner/index-swipe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/banner/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/banner/js/swipe_banner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/js/countDown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/倒计时.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/倒计时.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/countDown/整体思路.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/getTpl/getTpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/inputAutoVerify/js/inputAutoVerify_v001.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/router/参考.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/js/tplCompiler-0.0.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/js/tplCompiler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/tplCompiler/version/tplCompiler-001.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/tplMath/js/tplMath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/tplMath/用于多模板时，统一处理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/InternetPharmacy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/InternetPharmacy_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/data/homepage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/homepage/homepage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPharmacy/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/demo/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/demo/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/demo/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/demo/demo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/demo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/buy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/buy501.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/buy502.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/details.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/details200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/data/details5006.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/details/details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/details/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/details/details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/productDetails2011.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/productDetails2011/productDetails2011_build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/页面.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod_common/orderDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod_common/orderDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod_config/loaders.build.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod_config/loaders.build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod_config/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod_config/project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod_config/projectConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod_config/projectConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_page_config/Navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/multi_page_config/Navigation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_page_config/getEntryObj.js" beforeDir="false" afterPath="$PROJECT_DIR$/multi_page_config/getEntryObj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_page_config/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/multi_page_config/project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_page_config/projectConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/multi_page_config/projectConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/css/module/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/module/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/css/module/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/module/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/html/drugInfo/drugInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/html/drugInfo/drugInfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/utils/FAQ/FAQ.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/FAQ/FAQ.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/utils/base_info/base_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/base_info/base_info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/utils/goods_info/goods_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/goods_info/goods_info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/utils/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/nav/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/utils/select_list/select_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/utils/select_list/select_list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/drugInfo/drugInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/drugInfo/drugInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/orderDetails/orderDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderDetails/orderDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/orderDetails/tpl/orderDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderDetails/tpl/orderDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/orderInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderInfo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/orderInfo/orderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderInfo/orderInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/orderInfo/orderInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orderInfo/orderInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/APP/IM/openIM.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/APP/IM/openIM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/APP/getAppVersion/getAppVersion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/APP/getAppVersion/getAppVersion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/APP/分享/share.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/APP/share/share-001.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/Prices/prices Opt.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/Prices/pricesOpt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/ajax/js/ajax_jq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/ajax/js/ajax_jq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/drawer/css/drawer_m.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/drawer/css/drawer_m.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/router/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/router/js/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/js/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/router/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/router/js/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/js/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/router/js/router_002.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/router/js/router_002.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendors/tools/Type/type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/tools/Type/type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/代码结构.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开发总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/开发总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目打包命令-多模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/项目打包命令-多模块.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目打包命令-多页面.md" beforeDir="false" afterPath="$PROJECT_DIR$/项目打包命令-多页面.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrcodeScan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrcodeScan.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -364,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/asset/utils/common/bg_color.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/asset/html/InternetPharmacy/InternetPharmacy.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -439,17 +82,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrCode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="599">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrcodeScan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/deviceBind_kk/js/deviceBind_kk.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="839">
-              <caret line="353" column="10" lean-forward="true" selection-start-line="353" selection-start-column="10" selection-end-line="353" selection-end-column="10" />
+            <state relative-caret-position="267">
+              <caret line="235" column="18" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -530,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/views/productDetails2011/details/details200.json" />
         <option value="$PROJECT_DIR$/开发总结.md" />
         <option value="$PROJECT_DIR$/src/component/loadComponent/loadComponent.js" />
         <option value="$PROJECT_DIR$/src/views/productDetails2011/data/details5006.json" />
@@ -581,13 +232,15 @@
         <option value="$PROJECT_DIR$/src/asset/utils/OTC_list/otc_list-0.01.css" />
         <option value="$PROJECT_DIR$/src/asset/utils/OTC_list/药局猜你喜欢.html" />
         <option value="$PROJECT_DIR$/src/asset/utils/form/form.css" />
+        <option value="$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrcodeScan.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -613,22 +266,22 @@
               <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vendors" type="462c0819:PsiDirectoryNode" />
-              <item name="APP" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="deviceBind_kk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LC-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="LC-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vendors" type="462c0819:PsiDirectoryNode" />
-              <item name="APP" type="462c0819:PsiDirectoryNode" />
-              <item name="qrcodeScan" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="deviceBind_kk" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -775,15 +428,16 @@
       <workItem from="1605862212531" duration="67711000" />
       <workItem from="1606356250150" duration="1759000" />
       <workItem from="1606438420281" duration="705000" />
-      <workItem from="1606440003404" duration="1005000" />
+      <workItem from="1606440003404" duration="3280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1059878000" />
+    <option name="totallyTimeSpent" value="1062153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20560254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -808,17 +462,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/goodInfo/drugInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="23" column="2390" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="2390" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/goodInfo/drugInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1174,15 +817,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrCode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="599">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/deviceBind_kk/js/deviceBind_kk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="353" column="10" lean-forward="true" selection-start-line="353" selection-start-column="10" selection-end-line="353" selection-end-column="10" />
+        <state relative-caret-position="267">
+          <caret line="235" column="18" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendors/APP/qrcodeScan/qrcodeScan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

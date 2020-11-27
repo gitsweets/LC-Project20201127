@@ -1,0 +1,16 @@
+{
+  "id": "2037639",
+  "name": "设备绑定",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "设备绑定",
+  "glyphs": [
+    {
+      "icon_id": "12909188",
+      "name": "扫码",
+      "font_class": "saoma",
+      "unicode": "e70c",
+      "unicode_decimal": 59148
+    }
+  ]
+}
